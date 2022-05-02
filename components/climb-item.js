@@ -1,3 +1,10 @@
 export default function ClimbItem(props) {
-  return <div>climbing routes</div>;
+  const { id, name, image, grade } = props;
+  return (
+    <ul>
+      <div>{image}</div>
+      <div>{name}</div>
+      <div>{grade}</div>
+    </ul>
+  );
 }
