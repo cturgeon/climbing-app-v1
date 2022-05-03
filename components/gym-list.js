@@ -1,6 +1,5 @@
 import { Fragment } from "react";
 import GymItem from "./gym-item";
-import Button from "./ui/button";
 
 export default function GymList(props) {
   const { items } = props;
@@ -16,7 +15,6 @@ export default function GymList(props) {
             image={gym.image}
             address={gym.address}
           />
-          <Button link={`/${gym.id}`}>Explore Gym</Button>
         </Fragment>
       ))}
     </ul>

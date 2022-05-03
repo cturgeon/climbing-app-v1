@@ -8,7 +8,12 @@ export default function WallList(props) {
   return (
     <div>
       {walls.map((wall) => (
-        <WallItem id={wall.id} image={wall.image} name={wall.name} />
+        <WallItem
+          key={wall.id}
+          id={wall.id}
+          image={wall.image}
+          name={wall.name}
+        />
       ))}
     </div>
   );

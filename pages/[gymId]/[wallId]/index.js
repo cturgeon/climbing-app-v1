@@ -2,6 +2,7 @@ import Button from "../../../components/ui/button";
 import { useRouter } from "next/router";
 import { getGymData } from "../../../gym-data";
 import ClimbList from "../../../components/climb-list";
+import { Title } from "@mantine/core";
 
 export default function SpecificWall() {
   const router = useRouter();
@@ -16,7 +17,9 @@ export default function SpecificWall() {
       <div>
         {/* TODO need to change to img later */}
         <p>{wall.image}</p>
-        <h1>{wall.name}</h1>
+        <Title order={1} align="center">
+          {wall.name}
+        </Title>
         <ClimbList items={wall.climbs} />
       </div>
     );

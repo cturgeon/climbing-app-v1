@@ -1,4 +1,4 @@
-import Button from "../components/ui/button";
+import WallCard from "./ui/wall-card";
 import { useRouter } from "next/router";
 
 // would it be better to query to get the wallId or to have gym:{wall:{gymId}} -- the gymId nested inside the wall
@@ -10,9 +10,7 @@ export default function WallItem(props) {
   return (
     <div>
       <div>
-        <p>{image}</p>
-        <h1>{name}</h1>
-        <Button link={`/${gym}/${id}`}>See Climbs</Button>
+        <WallCard id={id} name={name} image={image} />
       </div>
     </div>
   );
