@@ -8,7 +8,7 @@ import {
 } from "@mantine/core";
 
 export default function ClimbCard(props) {
-  const { id, name, grade, description } = props;
+  const { id, name, grade, description, image } = props;
   const theme = useMantineTheme();
 
   const secondaryColor =
@@ -18,8 +18,7 @@ export default function ClimbCard(props) {
     <div style={{ width: 340, margin: "auto" }}>
       <Card shadow="sm" p="lg">
         <Card.Section>
-          {/* TODO change after adding my own images */}
-          <Image src="/images/coding-event.jpg" height={160} alt="Coding" />
+          <Image src={image} height={160} alt={id} />
         </Card.Section>
 
         <Group

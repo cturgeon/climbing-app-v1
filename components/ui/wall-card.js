@@ -8,7 +8,7 @@ import {
 } from "@mantine/core";
 
 export default function WallCard(props) {
-  const { id, name, image } = props;
+  const { id, name, image, gymId } = props;
   const theme = useMantineTheme();
 
   const secondaryColor =
@@ -34,6 +34,8 @@ export default function WallCard(props) {
           color="blue"
           fullWidth
           style={{ marginTop: 14 }}
+          component="a"
+          href={`/${gymId}/${id}`}
         >
           Click me
         </Button>

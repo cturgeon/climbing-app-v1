@@ -15,8 +15,6 @@ export default function SpecificWall() {
     const wall = gym.walls.find((gymWall) => gymWall.id === wallId);
     return (
       <div>
-        {/* TODO need to change to img later */}
-        <p>{wall.image}</p>
         <Title order={1} align="center">
           {wall.name}
         </Title>

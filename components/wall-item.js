@@ -10,7 +10,7 @@ export default function WallItem(props) {
   return (
     <div>
       <div>
-        <WallCard id={id} name={name} image={image} />
+        <WallCard id={id} name={name} image={image} gymId={gym} />
       </div>
     </div>
   );

@@ -9,13 +9,13 @@ const gymData = [
       {
         id: "wall1",
         name: "vertical wall",
-        image: "/images/climb-east.jpg",
+        image: "/images/vertical-wall.jpg",
         climbs: [
           {
             id: "route1",
             name: "the pink one",
             grade: "v1",
-            image: "/images/climb-east.jpg",
+            image: "/images/route1.jpg",
             description: "piches in the middle, tough topout",
             beta: "don't miss the heel-toe cam. top out is hard, trust high foot",
           },
@@ -23,7 +23,7 @@ const gymData = [
             id: "route2",
             name: "the blue one",
             grade: "v2",
-            image: "/images/climb-east.jpg",
+            image: "/images/route1.jpg",
             description: "piches in the middle, tough topout",
             beta: "don't miss the heel-toe cam. top out is hard, trust high foot",
           },
@@ -31,7 +31,7 @@ const gymData = [
             id: "route3",
             name: "the red one",
             grade: "v6",
-            image: "/images/climb-east.jpg",
+            image: "/images/route1.jpg",
             description: "piches in the middle, tough topout",
             beta: "don't miss the heel-toe cam. top out is hard, trust high foot",
           },
@@ -40,7 +40,7 @@ const gymData = [
       {
         id: "wall2",
         name: "Overhang wall",
-        image: "/images/climb-east.jpg",
+        image: "/images/overhang-wall.jpg",
         climbs: [
           {
             id: "route1",
