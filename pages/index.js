@@ -1,10 +1,11 @@
-import { getAllGymData } from "../gym-data";
-import GymList from "../components/gym-list";
 import { Text } from "@mantine/core";
 
-export default function Home() {
-  const gymData = getAllGymData();
+import { getAllGyms } from "../helpers/api-util";
 
+import GymList from "../components/gym-list";
+
+export default function Home(props) {
+  const { gymData } = props;
   return (
     <div>
       <Text size="md" align="center" transform="capitalize">
@@ -13,4 +14,14 @@ export default function Home() {
       <GymList items={gymData} />
     </div>
   );
+}
+
+// pre-render since there aren't many gyms to show and they don't change very often
+export async function getStaticProps() {
+  const gymData = await getAllGyms();
+  return {
+    props: {
+      gymData: gymData,
+    },
+  };
 }

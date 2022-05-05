@@ -3,6 +3,11 @@ import GymItem from "./gym-item";
 
 export default function GymList(props) {
   const { items } = props;
+
+  if (!items) {
+    return <p>Loading gym data</p>;
+  }
+
   return (
     <ul>
       {items.map((gym) => (

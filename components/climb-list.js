@@ -2,13 +2,22 @@ import ClimbItem from "./climb-item";
 
 export default function ClimbList(props) {
   const climbingRoutes = props.items;
-  if (!climbingRoutes) {
+
+  const climbs = [];
+  for (let key in climbingRoutes) {
+    climbs.push({
+      id: key,
+      ...climbingRoutes[key],
+    });
+  }
+
+  if (!climbs) {
     <p>Loading routes...</p>;
   }
 
   return (
     <ul>
-      {climbingRoutes.map((route) => (
+      {climbs.map((route) => (
         <ClimbItem
           key={route.id}
           id={route.id}

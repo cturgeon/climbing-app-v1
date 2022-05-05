@@ -9,12 +9,12 @@ export default function GymHeader(props) {
           alt={id}
           width={500}
           height={200}
-          src={image}
           fit="contain"
-          withPlaceholder
-          placeholder={
-            <Text>This is where I would put my image... if I had one!</Text>
-          }
+          // withPlaceholder
+          // placeholder={
+          //   <Text>This is where I would put my image... if I had one!</Text>
+          // }
+          src={image}
         />
         <Text>{name}</Text>
         <Text>{address}</Text>

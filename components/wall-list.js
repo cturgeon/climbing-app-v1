@@ -1,7 +1,15 @@
 import WallItem from "./wall-item";
 
 export default function WallList(props) {
-  const walls = props.items;
+  const wallsData = props.items;
+  const walls = [];
+  // not quite sure I needed to collect the data here. might be an api thing. TODO look up later
+  for (let key in wallsData) {
+    walls.push({
+      id: key,
+      ...wallsData[key],
+    });
+  }
   if (!walls) {
     return <p>loading... </p>;
   }

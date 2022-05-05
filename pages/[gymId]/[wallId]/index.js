@@ -1,18 +1,13 @@
-import Button from "../../../components/ui/button";
-import { useRouter } from "next/router";
-import { getGymData } from "../../../gym-data";
+import { getAllGyms, getGymById } from "../../../helpers/api-util";
 import ClimbList from "../../../components/climb-list";
 import { Title } from "@mantine/core";
 
-export default function SpecificWall() {
-  const router = useRouter();
-  const wallId = router.query.wallId;
-  const gymId = router.query.gymId;
+// we don't care to pre-render these walls, the data is not that important
+// so lets use SWR instead.
+export default function SpecificWall(props) {
+  const { wall } = props;
 
-  const gym = getGymData(gymId);
-
-  if (gym) {
-    const wall = gym.walls.find((gymWall) => gymWall.id === wallId);
+  if (wall) {
     return (
       <div>
         <Title order={1} align="center">
@@ -24,4 +19,28 @@ export default function SpecificWall() {
   }
 
   return <div>wall not found</div>;
+}
+
+export async function getServerSideProps(context) {
+  const gym = await getGymById(context.params.gymId);
+  const wallsData = gym.walls;
+  const walls = [];
+  for (let key in wallsData) {
+    walls.push({
+      id: key,
+      ...wallsData[key],
+    });
+  }
+  const wallId = context.params.wallId;
+  const wall = walls.find((wall) => wall.id === wallId);
+  if (!wall) {
+    return {
+      props: { hasError: true },
+    };
+  }
+  return {
+    props: {
+      wall: wall,
+    },
+  };
 }

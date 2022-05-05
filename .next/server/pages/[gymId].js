@@ -1,115 +1,273 @@
 "use strict";
-/*
- * ATTENTION: An "eval-source-map" devtool has been used.
- * This devtool is neither made for production nor for readable output files.
- * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
- * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
- * or disable the default devtool with "devtool: false".
- * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
- */
 (() => {
 var exports = {};
-exports.id = "pages/[gymId]";
-exports.ids = ["pages/[gymId]"];
+exports.id = 134;
+exports.ids = [134];
 exports.modules = {
 
-/***/ "./components/ui/gym-header.js":
-/*!*************************************!*\
-  !*** ./components/ui/gym-header.js ***!
-  \*************************************/
+/***/ 446:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ GymHeader)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _mantine_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @mantine/core */ \"@mantine/core\");\n/* harmony import */ var _mantine_core__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_mantine_core__WEBPACK_IMPORTED_MODULE_1__);\n\n\nfunction GymHeader(props) {\n    const { id , name , image , description , address  } = props;\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_mantine_core__WEBPACK_IMPORTED_MODULE_1__.Stack, {\n            align: \"center\",\n            children: [\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_mantine_core__WEBPACK_IMPORTED_MODULE_1__.Image, {\n                    alt: id,\n                    width: 500,\n                    height: 200,\n                    src: image,\n                    fit: \"contain\",\n                    withPlaceholder: true,\n                    placeholder: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_mantine_core__WEBPACK_IMPORTED_MODULE_1__.Text, {\n                        children: \"This is where I would put my image... if I had one!\"\n                    }, void 0, false, void 0, void 0)\n                }, void 0, false, {\n                    fileName: \"C:\\\\Users\\\\cturgeon\\\\Desktop\\\\NextJS\\\\climbing-app-v1\\\\components\\\\ui\\\\gym-header.js\",\n                    lineNumber: 8,\n                    columnNumber: 9\n                }, this),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_mantine_core__WEBPACK_IMPORTED_MODULE_1__.Text, {\n                    children: name\n                }, void 0, false, {\n                    fileName: \"C:\\\\Users\\\\cturgeon\\\\Desktop\\\\NextJS\\\\climbing-app-v1\\\\components\\\\ui\\\\gym-header.js\",\n                    lineNumber: 19,\n                    columnNumber: 9\n                }, this),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_mantine_core__WEBPACK_IMPORTED_MODULE_1__.Text, {\n                    children: address\n                }, void 0, false, {\n                    fileName: \"C:\\\\Users\\\\cturgeon\\\\Desktop\\\\NextJS\\\\climbing-app-v1\\\\components\\\\ui\\\\gym-header.js\",\n                    lineNumber: 20,\n                    columnNumber: 9\n                }, this),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_mantine_core__WEBPACK_IMPORTED_MODULE_1__.Text, {\n                    children: description\n                }, void 0, false, {\n                    fileName: \"C:\\\\Users\\\\cturgeon\\\\Desktop\\\\NextJS\\\\climbing-app-v1\\\\components\\\\ui\\\\gym-header.js\",\n                    lineNumber: 21,\n                    columnNumber: 9\n                }, this),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_mantine_core__WEBPACK_IMPORTED_MODULE_1__.Divider, {\n                    my: \"sm\"\n                }, void 0, false, {\n                    fileName: \"C:\\\\Users\\\\cturgeon\\\\Desktop\\\\NextJS\\\\climbing-app-v1\\\\components\\\\ui\\\\gym-header.js\",\n                    lineNumber: 22,\n                    columnNumber: 9\n                }, this)\n            ]\n        }, void 0, true, {\n            fileName: \"C:\\\\Users\\\\cturgeon\\\\Desktop\\\\NextJS\\\\climbing-app-v1\\\\components\\\\ui\\\\gym-header.js\",\n            lineNumber: 7,\n            columnNumber: 7\n        }, this)\n    }, void 0, false);\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jb21wb25lbnRzL3VpL2d5bS1oZWFkZXIuanMuanMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7QUFBQTtBQUE0RDtBQUU3QyxTQUFTSSxTQUFTLENBQUNDLEtBQUssRUFBRTtJQUN2QyxNQUFNLEVBQUVDLEVBQUUsR0FBRUMsSUFBSSxHQUFFQyxLQUFLLEdBQUVDLFdBQVcsR0FBRUMsT0FBTyxHQUFFLEdBQUdMLEtBQUs7SUFDdkQscUJBQ0U7a0JBQ0UsNEVBQUNKLGdEQUFLO1lBQUNVLEtBQUssRUFBQyxRQUFROzs4QkFDbkIsOERBQUNYLGdEQUFLO29CQUNKWSxHQUFHLEVBQUVOLEVBQUU7b0JBQ1BPLEtBQUssRUFBRSxHQUFHO29CQUNWQyxNQUFNLEVBQUUsR0FBRztvQkFDWEMsR0FBRyxFQUFFUCxLQUFLO29CQUNWUSxHQUFHLEVBQUMsU0FBUztvQkFDYkMsZUFBZTtvQkFDZkMsV0FBVyxnQkFDVCw4REFBQ2hCLCtDQUFJO2tDQUFDLHFEQUFtRDtxREFBTzs7Ozs7d0JBRWxFOzhCQUNGLDhEQUFDQSwrQ0FBSTs4QkFBRUssSUFBSTs7Ozs7d0JBQVE7OEJBQ25CLDhEQUFDTCwrQ0FBSTs4QkFBRVEsT0FBTzs7Ozs7d0JBQVE7OEJBQ3RCLDhEQUFDUiwrQ0FBSTs4QkFBRU8sV0FBVzs7Ozs7d0JBQVE7OEJBQzFCLDhEQUFDTixrREFBTztvQkFBQ2dCLEVBQUUsRUFBQyxJQUFJOzs7Ozt3QkFBRzs7Ozs7O2dCQUNiO3FCQUNQLENBQ0g7Q0FDSCIsInNvdXJjZXMiOlsid2VicGFjazovL2NsaW1iaW5nLWFwcC12MS8uL2NvbXBvbmVudHMvdWkvZ3ltLWhlYWRlci5qcz8xZTc5Il0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IEltYWdlLCBTdGFjaywgVGV4dCwgRGl2aWRlciB9IGZyb20gXCJAbWFudGluZS9jb3JlXCI7XHJcblxyXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBHeW1IZWFkZXIocHJvcHMpIHtcclxuICBjb25zdCB7IGlkLCBuYW1lLCBpbWFnZSwgZGVzY3JpcHRpb24sIGFkZHJlc3MgfSA9IHByb3BzO1xyXG4gIHJldHVybiAoXHJcbiAgICA8PlxyXG4gICAgICA8U3RhY2sgYWxpZ249XCJjZW50ZXJcIj5cclxuICAgICAgICA8SW1hZ2VcclxuICAgICAgICAgIGFsdD17aWR9XHJcbiAgICAgICAgICB3aWR0aD17NTAwfVxyXG4gICAgICAgICAgaGVpZ2h0PXsyMDB9XHJcbiAgICAgICAgICBzcmM9e2ltYWdlfVxyXG4gICAgICAgICAgZml0PVwiY29udGFpblwiXHJcbiAgICAgICAgICB3aXRoUGxhY2Vob2xkZXJcclxuICAgICAgICAgIHBsYWNlaG9sZGVyPXtcclxuICAgICAgICAgICAgPFRleHQ+VGhpcyBpcyB3aGVyZSBJIHdvdWxkIHB1dCBteSBpbWFnZS4uLiBpZiBJIGhhZCBvbmUhPC9UZXh0PlxyXG4gICAgICAgICAgfVxyXG4gICAgICAgIC8+XHJcbiAgICAgICAgPFRleHQ+e25hbWV9PC9UZXh0PlxyXG4gICAgICAgIDxUZXh0PnthZGRyZXNzfTwvVGV4dD5cclxuICAgICAgICA8VGV4dD57ZGVzY3JpcHRpb259PC9UZXh0PlxyXG4gICAgICAgIDxEaXZpZGVyIG15PVwic21cIiAvPlxyXG4gICAgICA8L1N0YWNrPlxyXG4gICAgPC8+XHJcbiAgKTtcclxufVxyXG4iXSwibmFtZXMiOlsiSW1hZ2UiLCJTdGFjayIsIlRleHQiLCJEaXZpZGVyIiwiR3ltSGVhZGVyIiwicHJvcHMiLCJpZCIsIm5hbWUiLCJpbWFnZSIsImRlc2NyaXB0aW9uIiwiYWRkcmVzcyIsImFsaWduIiwiYWx0Iiwid2lkdGgiLCJoZWlnaHQiLCJzcmMiLCJmaXQiLCJ3aXRoUGxhY2Vob2xkZXIiLCJwbGFjZWhvbGRlciIsIm15Il0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./components/ui/gym-header.js\n");
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "U": () => (/* binding */ getGymById),
+/* harmony export */   "X": () => (/* binding */ getAllGyms)
+/* harmony export */ });
+async function getAllGyms() {
+    const response = await fetch("https://nextjs-course-cc72c-default-rtdb.firebaseio.com/gymData.json");
+    const data = await response.json();
+    const gymData = [];
+    for(const key in data){
+        gymData.push({
+            id: key,
+            ...data[key]
+        });
+    }
+    return gymData;
+}
+async function getGymById(id) {
+    let gymData = await getAllGyms();
+    return gymData.find((gym)=>gym.id === id
+    );
+}
+
 
 /***/ }),
 
-/***/ "./components/ui/wall-card.js":
-/*!************************************!*\
-  !*** ./components/ui/wall-card.js ***!
-  \************************************/
+/***/ 425:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ WallCard)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _mantine_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @mantine/core */ \"@mantine/core\");\n/* harmony import */ var _mantine_core__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_mantine_core__WEBPACK_IMPORTED_MODULE_1__);\n\n\nfunction WallCard(props) {\n    const { id , name , image , gymId  } = props;\n    const theme = (0,_mantine_core__WEBPACK_IMPORTED_MODULE_1__.useMantineTheme)();\n    const secondaryColor = theme.colorScheme === \"dark\" ? theme.colors.dark[1] : theme.colors.gray[7];\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        style: {\n            width: 340,\n            margin: \"auto\"\n        },\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_mantine_core__WEBPACK_IMPORTED_MODULE_1__.Card, {\n            shadow: \"sm\",\n            p: \"lg\",\n            children: [\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_mantine_core__WEBPACK_IMPORTED_MODULE_1__.Card.Section, {\n                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_mantine_core__WEBPACK_IMPORTED_MODULE_1__.Image, {\n                        src: image,\n                        height: 160,\n                        alt: id\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\cturgeon\\\\Desktop\\\\NextJS\\\\climbing-app-v1\\\\components\\\\ui\\\\wall-card.js\",\n                        lineNumber: 22,\n                        columnNumber: 11\n                    }, this)\n                }, void 0, false, {\n                    fileName: \"C:\\\\Users\\\\cturgeon\\\\Desktop\\\\NextJS\\\\climbing-app-v1\\\\components\\\\ui\\\\wall-card.js\",\n                    lineNumber: 20,\n                    columnNumber: 9\n                }, this),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_mantine_core__WEBPACK_IMPORTED_MODULE_1__.Group, {\n                    position: \"apart\",\n                    style: {\n                        marginBottom: 5,\n                        marginTop: theme.spacing.sm\n                    },\n                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_mantine_core__WEBPACK_IMPORTED_MODULE_1__.Text, {\n                        weight: 500,\n                        children: name\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\cturgeon\\\\Desktop\\\\NextJS\\\\climbing-app-v1\\\\components\\\\ui\\\\wall-card.js\",\n                        lineNumber: 29,\n                        columnNumber: 11\n                    }, this)\n                }, void 0, false, {\n                    fileName: \"C:\\\\Users\\\\cturgeon\\\\Desktop\\\\NextJS\\\\climbing-app-v1\\\\components\\\\ui\\\\wall-card.js\",\n                    lineNumber: 25,\n                    columnNumber: 9\n                }, this),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_mantine_core__WEBPACK_IMPORTED_MODULE_1__.Button, {\n                    variant: \"light\",\n                    color: \"blue\",\n                    fullWidth: true,\n                    style: {\n                        marginTop: 14\n                    },\n                    component: \"a\",\n                    href: `/${gymId}/${id}`,\n                    children: \"Click me\"\n                }, void 0, false, {\n                    fileName: \"C:\\\\Users\\\\cturgeon\\\\Desktop\\\\NextJS\\\\climbing-app-v1\\\\components\\\\ui\\\\wall-card.js\",\n                    lineNumber: 32,\n                    columnNumber: 9\n                }, this)\n            ]\n        }, void 0, true, {\n            fileName: \"C:\\\\Users\\\\cturgeon\\\\Desktop\\\\NextJS\\\\climbing-app-v1\\\\components\\\\ui\\\\wall-card.js\",\n            lineNumber: 19,\n            columnNumber: 7\n        }, this)\n    }, void 0, false, {\n        fileName: \"C:\\\\Users\\\\cturgeon\\\\Desktop\\\\NextJS\\\\climbing-app-v1\\\\components\\\\ui\\\\wall-card.js\",\n        lineNumber: 18,\n        columnNumber: 5\n    }, this);\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jb21wb25lbnRzL3VpL3dhbGwtY2FyZC5qcy5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7OztBQUFBO0FBT3VCO0FBRVIsU0FBU00sUUFBUSxDQUFDQyxLQUFLLEVBQUU7SUFDdEMsTUFBTSxFQUFFQyxFQUFFLEdBQUVDLElBQUksR0FBRUMsS0FBSyxHQUFFQyxLQUFLLEdBQUUsR0FBR0osS0FBSztJQUN4QyxNQUFNSyxLQUFLLEdBQUdQLDhEQUFlLEVBQUU7SUFFL0IsTUFBTVEsY0FBYyxHQUNsQkQsS0FBSyxDQUFDRSxXQUFXLEtBQUssTUFBTSxHQUFHRixLQUFLLENBQUNHLE1BQU0sQ0FBQ0MsSUFBSSxDQUFDLENBQUMsQ0FBQyxHQUFHSixLQUFLLENBQUNHLE1BQU0sQ0FBQ0UsSUFBSSxDQUFDLENBQUMsQ0FBQztJQUU1RSxxQkFDRSw4REFBQ0MsS0FBRztRQUFDQyxLQUFLLEVBQUU7WUFBRUMsS0FBSyxFQUFFLEdBQUc7WUFBRUMsTUFBTSxFQUFFLE1BQU07U0FBRTtrQkFDeEMsNEVBQUNyQiwrQ0FBSTtZQUFDc0IsTUFBTSxFQUFDLElBQUk7WUFBQ0MsQ0FBQyxFQUFDLElBQUk7OzhCQUN0Qiw4REFBQ3ZCLHVEQUFZOzhCQUVYLDRFQUFDQyxnREFBSzt3QkFBQ3dCLEdBQUcsRUFBRWYsS0FBSzt3QkFBRWdCLE1BQU0sRUFBRSxHQUFHO3dCQUFFQyxHQUFHLEVBQUVuQixFQUFFOzs7Ozs0QkFBSTs7Ozs7d0JBQzlCOzhCQUVmLDhEQUFDSixnREFBSztvQkFDSndCLFFBQVEsRUFBQyxPQUFPO29CQUNoQlQsS0FBSyxFQUFFO3dCQUFFVSxZQUFZLEVBQUUsQ0FBQzt3QkFBRUMsU0FBUyxFQUFFbEIsS0FBSyxDQUFDbUIsT0FBTyxDQUFDQyxFQUFFO3FCQUFFOzhCQUV2RCw0RUFBQzlCLCtDQUFJO3dCQUFDK0IsTUFBTSxFQUFFLEdBQUc7a0NBQUd4QixJQUFJOzs7Ozs0QkFBUTs7Ozs7d0JBQzFCOzhCQUVSLDhEQUFDTixpREFBTTtvQkFDTCtCLE9BQU8sRUFBQyxPQUFPO29CQUNmQyxLQUFLLEVBQUMsTUFBTTtvQkFDWkMsU0FBUztvQkFDVGpCLEtBQUssRUFBRTt3QkFBRVcsU0FBUyxFQUFFLEVBQUU7cUJBQUU7b0JBQ3hCTyxTQUFTLEVBQUMsR0FBRztvQkFDYkMsSUFBSSxFQUFFLENBQUMsQ0FBQyxFQUFFM0IsS0FBSyxDQUFDLENBQUMsRUFBRUgsRUFBRSxDQUFDLENBQUM7OEJBQ3hCLFVBRUQ7Ozs7O3dCQUFTOzs7Ozs7Z0JBQ0o7Ozs7O1lBQ0gsQ0FDTjtDQUNIIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vY2xpbWJpbmctYXBwLXYxLy4vY29tcG9uZW50cy91aS93YWxsLWNhcmQuanM/ZTM0NSJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQge1xyXG4gIENhcmQsXHJcbiAgSW1hZ2UsXHJcbiAgVGV4dCxcclxuICBCdXR0b24sXHJcbiAgR3JvdXAsXHJcbiAgdXNlTWFudGluZVRoZW1lLFxyXG59IGZyb20gXCJAbWFudGluZS9jb3JlXCI7XHJcblxyXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBXYWxsQ2FyZChwcm9wcykge1xyXG4gIGNvbnN0IHsgaWQsIG5hbWUsIGltYWdlLCBneW1JZCB9ID0gcHJvcHM7XHJcbiAgY29uc3QgdGhlbWUgPSB1c2VNYW50aW5lVGhlbWUoKTtcclxuXHJcbiAgY29uc3Qgc2Vjb25kYXJ5Q29sb3IgPVxyXG4gICAgdGhlbWUuY29sb3JTY2hlbWUgPT09IFwiZGFya1wiID8gdGhlbWUuY29sb3JzLmRhcmtbMV0gOiB0aGVtZS5jb2xvcnMuZ3JheVs3XTtcclxuXHJcbiAgcmV0dXJuIChcclxuICAgIDxkaXYgc3R5bGU9e3sgd2lkdGg6IDM0MCwgbWFyZ2luOiBcImF1dG9cIiB9fT5cclxuICAgICAgPENhcmQgc2hhZG93PVwic21cIiBwPVwibGdcIj5cclxuICAgICAgICA8Q2FyZC5TZWN0aW9uPlxyXG4gICAgICAgICAgey8qIFRPRE8gY2hhbmdlIGFmdGVyIGFkZGluZyBteSBvd24gaW1hZ2VzICovfVxyXG4gICAgICAgICAgPEltYWdlIHNyYz17aW1hZ2V9IGhlaWdodD17MTYwfSBhbHQ9e2lkfSAvPlxyXG4gICAgICAgIDwvQ2FyZC5TZWN0aW9uPlxyXG5cclxuICAgICAgICA8R3JvdXBcclxuICAgICAgICAgIHBvc2l0aW9uPVwiYXBhcnRcIlxyXG4gICAgICAgICAgc3R5bGU9e3sgbWFyZ2luQm90dG9tOiA1LCBtYXJnaW5Ub3A6IHRoZW1lLnNwYWNpbmcuc20gfX1cclxuICAgICAgICA+XHJcbiAgICAgICAgICA8VGV4dCB3ZWlnaHQ9ezUwMH0+e25hbWV9PC9UZXh0PlxyXG4gICAgICAgIDwvR3JvdXA+XHJcblxyXG4gICAgICAgIDxCdXR0b25cclxuICAgICAgICAgIHZhcmlhbnQ9XCJsaWdodFwiXHJcbiAgICAgICAgICBjb2xvcj1cImJsdWVcIlxyXG4gICAgICAgICAgZnVsbFdpZHRoXHJcbiAgICAgICAgICBzdHlsZT17eyBtYXJnaW5Ub3A6IDE0IH19XHJcbiAgICAgICAgICBjb21wb25lbnQ9XCJhXCJcclxuICAgICAgICAgIGhyZWY9e2AvJHtneW1JZH0vJHtpZH1gfVxyXG4gICAgICAgID5cclxuICAgICAgICAgIENsaWNrIG1lXHJcbiAgICAgICAgPC9CdXR0b24+XHJcbiAgICAgIDwvQ2FyZD5cclxuICAgIDwvZGl2PlxyXG4gICk7XHJcbn1cclxuIl0sIm5hbWVzIjpbIkNhcmQiLCJJbWFnZSIsIlRleHQiLCJCdXR0b24iLCJHcm91cCIsInVzZU1hbnRpbmVUaGVtZSIsIldhbGxDYXJkIiwicHJvcHMiLCJpZCIsIm5hbWUiLCJpbWFnZSIsImd5bUlkIiwidGhlbWUiLCJzZWNvbmRhcnlDb2xvciIsImNvbG9yU2NoZW1lIiwiY29sb3JzIiwiZGFyayIsImdyYXkiLCJkaXYiLCJzdHlsZSIsIndpZHRoIiwibWFyZ2luIiwic2hhZG93IiwicCIsIlNlY3Rpb24iLCJzcmMiLCJoZWlnaHQiLCJhbHQiLCJwb3NpdGlvbiIsIm1hcmdpbkJvdHRvbSIsIm1hcmdpblRvcCIsInNwYWNpbmciLCJzbSIsIndlaWdodCIsInZhcmlhbnQiLCJjb2xvciIsImZ1bGxXaWR0aCIsImNvbXBvbmVudCIsImhyZWYiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./components/ui/wall-card.js\n");
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, {
+  "default": () => (/* binding */ SpecificGym),
+  "getStaticPaths": () => (/* binding */ getStaticPaths),
+  "getStaticProps": () => (/* binding */ getStaticProps)
+});
+
+// EXTERNAL MODULE: external "react/jsx-runtime"
+var jsx_runtime_ = __webpack_require__(997);
+// EXTERNAL MODULE: external "react"
+var external_react_ = __webpack_require__(689);
+// EXTERNAL MODULE: ./helpers/api-util.js
+var api_util = __webpack_require__(446);
+// EXTERNAL MODULE: external "@mantine/core"
+var core_ = __webpack_require__(247);
+;// CONCATENATED MODULE: ./components/ui/gym-header.js
+
+
+function GymHeader(props) {
+    const { id , name , image , description , address  } = props;
+    return /*#__PURE__*/ jsx_runtime_.jsx(jsx_runtime_.Fragment, {
+        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)(core_.Stack, {
+            align: "center",
+            children: [
+                /*#__PURE__*/ jsx_runtime_.jsx(core_.Image, {
+                    alt: id,
+                    width: 500,
+                    height: 200,
+                    fit: "contain",
+                    // withPlaceholder
+                    // placeholder={
+                    //   <Text>This is where I would put my image... if I had one!</Text>
+                    // }
+                    src: image
+                }),
+                /*#__PURE__*/ jsx_runtime_.jsx(core_.Text, {
+                    children: name
+                }),
+                /*#__PURE__*/ jsx_runtime_.jsx(core_.Text, {
+                    children: address
+                }),
+                /*#__PURE__*/ jsx_runtime_.jsx(core_.Text, {
+                    children: description
+                }),
+                /*#__PURE__*/ jsx_runtime_.jsx(core_.Divider, {
+                    my: "sm"
+                })
+            ]
+        })
+    });
+};
+
+;// CONCATENATED MODULE: ./components/ui/wall-card.js
+
+
+function WallCard(props) {
+    const { id , name , image , gymId  } = props;
+    const theme = (0,core_.useMantineTheme)();
+    const secondaryColor = theme.colorScheme === "dark" ? theme.colors.dark[1] : theme.colors.gray[7];
+    return /*#__PURE__*/ jsx_runtime_.jsx("div", {
+        style: {
+            width: 340,
+            margin: "auto"
+        },
+        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)(core_.Card, {
+            shadow: "sm",
+            p: "lg",
+            children: [
+                /*#__PURE__*/ jsx_runtime_.jsx(core_.Card.Section, {
+                    children: /*#__PURE__*/ jsx_runtime_.jsx(core_.Image, {
+                        src: image,
+                        height: 160,
+                        alt: id
+                    })
+                }),
+                /*#__PURE__*/ jsx_runtime_.jsx(core_.Group, {
+                    position: "apart",
+                    style: {
+                        marginBottom: 5,
+                        marginTop: theme.spacing.sm
+                    },
+                    children: /*#__PURE__*/ jsx_runtime_.jsx(core_.Text, {
+                        weight: 500,
+                        children: name
+                    })
+                }),
+                /*#__PURE__*/ jsx_runtime_.jsx(core_.Button, {
+                    variant: "light",
+                    color: "blue",
+                    fullWidth: true,
+                    style: {
+                        marginTop: 14
+                    },
+                    component: "a",
+                    href: `/${gymId}/${id}`,
+                    children: "Click me"
+                })
+            ]
+        })
+    });
+};
+
+;// CONCATENATED MODULE: external "next/router"
+const router_namespaceObject = require("next/router");
+;// CONCATENATED MODULE: ./components/wall-item.js
+
+
+
+// would it be better to query to get the wallId or to have gym:{wall:{gymId}} -- the gymId nested inside the wall
+// should a wall always be tied to a gym?
+function WallItem(props) {
+    const { id , image , name  } = props;
+    const router = (0,router_namespaceObject.useRouter)();
+    const gym = router.query.gymId;
+    return /*#__PURE__*/ jsx_runtime_.jsx("div", {
+        children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
+            children: /*#__PURE__*/ jsx_runtime_.jsx(WallCard, {
+                id: id,
+                name: name,
+                image: image,
+                gymId: gym
+            })
+        })
+    });
+};
+
+;// CONCATENATED MODULE: ./components/wall-list.js
+
+
+function WallList(props) {
+    const wallsData = props.items;
+    const walls = [];
+    // not quite sure I needed to collect the data here. might be an api thing. TODO look up later
+    for(let key in wallsData){
+        walls.push({
+            id: key,
+            ...wallsData[key]
+        });
+    }
+    if (!walls) {
+        return /*#__PURE__*/ jsx_runtime_.jsx("p", {
+            children: "loading... "
+        });
+    }
+    return /*#__PURE__*/ jsx_runtime_.jsx("div", {
+        children: walls.map((wall)=>/*#__PURE__*/ jsx_runtime_.jsx(WallItem, {
+                id: wall.id,
+                image: wall.image,
+                name: wall.name
+            }, wall.id)
+        )
+    });
+};
+
+;// CONCATENATED MODULE: ./pages/[gymId]/index.js
+
+
+
+
+
+function SpecificGym(props) {
+    const gym = props.gym;
+    if (!gym) {
+        return /*#__PURE__*/ jsx_runtime_.jsx("p", {
+            children: "Loading...."
+        });
+    }
+    return /*#__PURE__*/ jsx_runtime_.jsx("div", {
+        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)(external_react_.Fragment, {
+            children: [
+                /*#__PURE__*/ jsx_runtime_.jsx(GymHeader, {
+                    id: gym.id,
+                    name: gym.name,
+                    description: gym.description,
+                    image: gym.image,
+                    address: gym.address
+                }, gym.id),
+                /*#__PURE__*/ jsx_runtime_.jsx(WallList, {
+                    items: gym.walls
+                })
+            ]
+        })
+    });
+};
+async function getStaticProps(context) {
+    const gymId = context.params.gymId;
+    const gymData = await (0,api_util/* getGymById */.U)(gymId);
+    return {
+        props: {
+            gym: gymData
+        }
+    };
+}
+async function getStaticPaths() {
+    const gymData = await (0,api_util/* getAllGyms */.X)();
+    // make sure to return the id that matches the file path. Here for ex. is [gymId]
+    const paths = gymData.map((gym)=>({
+            params: {
+                gymId: gym.id
+            }
+        })
+    );
+    return {
+        paths: paths,
+        fallback: "blocking"
+    };
+}
+
 
 /***/ }),
 
-/***/ "./components/wall-item.js":
-/*!*********************************!*\
-  !*** ./components/wall-item.js ***!
-  \*********************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ WallItem)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _ui_wall_card__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ui/wall-card */ \"./components/ui/wall-card.js\");\n/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/router */ \"next/router\");\n/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_2__);\n\n\n\n// would it be better to query to get the wallId or to have gym:{wall:{gymId}} -- the gymId nested inside the wall\n// should a wall always be tied to a gym?\nfunction WallItem(props) {\n    const { id , image , name  } = props;\n    const router = (0,next_router__WEBPACK_IMPORTED_MODULE_2__.useRouter)();\n    const gym = router.query.gymId;\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n            children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_ui_wall_card__WEBPACK_IMPORTED_MODULE_1__[\"default\"], {\n                id: id,\n                name: name,\n                image: image,\n                gymId: gym\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\cturgeon\\\\Desktop\\\\NextJS\\\\climbing-app-v1\\\\components\\\\wall-item.js\",\n                lineNumber: 13,\n                columnNumber: 9\n            }, this)\n        }, void 0, false, {\n            fileName: \"C:\\\\Users\\\\cturgeon\\\\Desktop\\\\NextJS\\\\climbing-app-v1\\\\components\\\\wall-item.js\",\n            lineNumber: 12,\n            columnNumber: 7\n        }, this)\n    }, void 0, false, {\n        fileName: \"C:\\\\Users\\\\cturgeon\\\\Desktop\\\\NextJS\\\\climbing-app-v1\\\\components\\\\wall-item.js\",\n        lineNumber: 11,\n        columnNumber: 5\n    }, this);\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jb21wb25lbnRzL3dhbGwtaXRlbS5qcy5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7QUFBQTtBQUFzQztBQUNFO0FBRXhDLGtIQUFrSDtBQUNsSCx5Q0FBeUM7QUFDMUIsU0FBU0UsUUFBUSxDQUFDQyxLQUFLLEVBQUU7SUFDdEMsTUFBTSxFQUFFQyxFQUFFLEdBQUVDLEtBQUssR0FBRUMsSUFBSSxHQUFFLEdBQUdILEtBQUs7SUFDakMsTUFBTUksTUFBTSxHQUFHTixzREFBUyxFQUFFO0lBQzFCLE1BQU1PLEdBQUcsR0FBR0QsTUFBTSxDQUFDRSxLQUFLLENBQUNDLEtBQUs7SUFDOUIscUJBQ0UsOERBQUNDLEtBQUc7a0JBQ0YsNEVBQUNBLEtBQUc7c0JBQ0YsNEVBQUNYLHFEQUFRO2dCQUFDSSxFQUFFLEVBQUVBLEVBQUU7Z0JBQUVFLElBQUksRUFBRUEsSUFBSTtnQkFBRUQsS0FBSyxFQUFFQSxLQUFLO2dCQUFFSyxLQUFLLEVBQUVGLEdBQUc7Ozs7O29CQUFJOzs7OztnQkFDdEQ7Ozs7O1lBQ0YsQ0FDTjtDQUNIIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vY2xpbWJpbmctYXBwLXYxLy4vY29tcG9uZW50cy93YWxsLWl0ZW0uanM/YmJhNyJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgV2FsbENhcmQgZnJvbSBcIi4vdWkvd2FsbC1jYXJkXCI7XHJcbmltcG9ydCB7IHVzZVJvdXRlciB9IGZyb20gXCJuZXh0L3JvdXRlclwiO1xyXG5cclxuLy8gd291bGQgaXQgYmUgYmV0dGVyIHRvIHF1ZXJ5IHRvIGdldCB0aGUgd2FsbElkIG9yIHRvIGhhdmUgZ3ltOnt3YWxsOntneW1JZH19IC0tIHRoZSBneW1JZCBuZXN0ZWQgaW5zaWRlIHRoZSB3YWxsXHJcbi8vIHNob3VsZCBhIHdhbGwgYWx3YXlzIGJlIHRpZWQgdG8gYSBneW0/XHJcbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIFdhbGxJdGVtKHByb3BzKSB7XHJcbiAgY29uc3QgeyBpZCwgaW1hZ2UsIG5hbWUgfSA9IHByb3BzO1xyXG4gIGNvbnN0IHJvdXRlciA9IHVzZVJvdXRlcigpO1xyXG4gIGNvbnN0IGd5bSA9IHJvdXRlci5xdWVyeS5neW1JZDtcclxuICByZXR1cm4gKFxyXG4gICAgPGRpdj5cclxuICAgICAgPGRpdj5cclxuICAgICAgICA8V2FsbENhcmQgaWQ9e2lkfSBuYW1lPXtuYW1lfSBpbWFnZT17aW1hZ2V9IGd5bUlkPXtneW19IC8+XHJcbiAgICAgIDwvZGl2PlxyXG4gICAgPC9kaXY+XHJcbiAgKTtcclxufVxyXG4iXSwibmFtZXMiOlsiV2FsbENhcmQiLCJ1c2VSb3V0ZXIiLCJXYWxsSXRlbSIsInByb3BzIiwiaWQiLCJpbWFnZSIsIm5hbWUiLCJyb3V0ZXIiLCJneW0iLCJxdWVyeSIsImd5bUlkIiwiZGl2Il0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./components/wall-item.js\n");
-
-/***/ }),
-
-/***/ "./components/wall-list.js":
-/*!*********************************!*\
-  !*** ./components/wall-list.js ***!
-  \*********************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ WallList)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _wall_item__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./wall-item */ \"./components/wall-item.js\");\n\n\nfunction WallList(props) {\n    const walls = props.items;\n    if (!walls) {\n        return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n            children: \"loading... \"\n        }, void 0, false, {\n            fileName: \"C:\\\\Users\\\\cturgeon\\\\Desktop\\\\NextJS\\\\climbing-app-v1\\\\components\\\\wall-list.js\",\n            lineNumber: 6,\n            columnNumber: 12\n        }, this);\n    }\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        children: walls.map((wall)=>/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_wall_item__WEBPACK_IMPORTED_MODULE_1__[\"default\"], {\n                id: wall.id,\n                image: wall.image,\n                name: wall.name\n            }, wall.id, false, {\n                fileName: \"C:\\\\Users\\\\cturgeon\\\\Desktop\\\\NextJS\\\\climbing-app-v1\\\\components\\\\wall-list.js\",\n                lineNumber: 11,\n                columnNumber: 9\n            }, this)\n        )\n    }, void 0, false, {\n        fileName: \"C:\\\\Users\\\\cturgeon\\\\Desktop\\\\NextJS\\\\climbing-app-v1\\\\components\\\\wall-list.js\",\n        lineNumber: 9,\n        columnNumber: 5\n    }, this);\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jb21wb25lbnRzL3dhbGwtbGlzdC5qcy5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7O0FBQUE7QUFBbUM7QUFFcEIsU0FBU0MsUUFBUSxDQUFDQyxLQUFLLEVBQUU7SUFDdEMsTUFBTUMsS0FBSyxHQUFHRCxLQUFLLENBQUNFLEtBQUs7SUFDekIsSUFBSSxDQUFDRCxLQUFLLEVBQUU7UUFDVixxQkFBTyw4REFBQ0UsR0FBQztzQkFBQyxhQUFXOzs7OztnQkFBSSxDQUFDO0tBQzNCO0lBQ0QscUJBQ0UsOERBQUNDLEtBQUc7a0JBQ0RILEtBQUssQ0FBQ0ksR0FBRyxDQUFDLENBQUNDLElBQUksaUJBQ2QsOERBQUNSLGtEQUFRO2dCQUVQUyxFQUFFLEVBQUVELElBQUksQ0FBQ0MsRUFBRTtnQkFDWEMsS0FBSyxFQUFFRixJQUFJLENBQUNFLEtBQUs7Z0JBQ2pCQyxJQUFJLEVBQUVILElBQUksQ0FBQ0csSUFBSTtlQUhWSCxJQUFJLENBQUNDLEVBQUU7Ozs7b0JBSVo7UUFDSCxDQUFDOzs7OztZQUNFLENBQ047Q0FDSCIsInNvdXJjZXMiOlsid2VicGFjazovL2NsaW1iaW5nLWFwcC12MS8uL2NvbXBvbmVudHMvd2FsbC1saXN0LmpzPzM2ZWQiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFdhbGxJdGVtIGZyb20gXCIuL3dhbGwtaXRlbVwiO1xyXG5cclxuZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gV2FsbExpc3QocHJvcHMpIHtcclxuICBjb25zdCB3YWxscyA9IHByb3BzLml0ZW1zO1xyXG4gIGlmICghd2FsbHMpIHtcclxuICAgIHJldHVybiA8cD5sb2FkaW5nLi4uIDwvcD47XHJcbiAgfVxyXG4gIHJldHVybiAoXHJcbiAgICA8ZGl2PlxyXG4gICAgICB7d2FsbHMubWFwKCh3YWxsKSA9PiAoXHJcbiAgICAgICAgPFdhbGxJdGVtXHJcbiAgICAgICAgICBrZXk9e3dhbGwuaWR9XHJcbiAgICAgICAgICBpZD17d2FsbC5pZH1cclxuICAgICAgICAgIGltYWdlPXt3YWxsLmltYWdlfVxyXG4gICAgICAgICAgbmFtZT17d2FsbC5uYW1lfVxyXG4gICAgICAgIC8+XHJcbiAgICAgICkpfVxyXG4gICAgPC9kaXY+XHJcbiAgKTtcclxufVxyXG4iXSwibmFtZXMiOlsiV2FsbEl0ZW0iLCJXYWxsTGlzdCIsInByb3BzIiwid2FsbHMiLCJpdGVtcyIsInAiLCJkaXYiLCJtYXAiLCJ3YWxsIiwiaWQiLCJpbWFnZSIsIm5hbWUiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./components/wall-list.js\n");
-
-/***/ }),
-
-/***/ "./gym-data.js":
-/*!*********************!*\
-  !*** ./gym-data.js ***!
-  \*********************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"getAllGymData\": () => (/* binding */ getAllGymData),\n/* harmony export */   \"getGymData\": () => (/* binding */ getGymData)\n/* harmony export */ });\nconst gymData = [\n    {\n        id: \"gym1\",\n        name: \"Climb Nashville East\",\n        image: \"/images/climb-east.jpg\",\n        address: \"East Nashville Nashville, TN\",\n        description: \"There is a lot of fun bouldering here!\",\n        walls: [\n            {\n                id: \"wall1\",\n                name: \"vertical wall\",\n                image: \"/images/vertical-wall.jpg\",\n                climbs: [\n                    {\n                        id: \"route1\",\n                        name: \"the pink one\",\n                        grade: \"v1\",\n                        image: \"/images/route1.jpg\",\n                        description: \"piches in the middle, tough topout\",\n                        beta: \"don't miss the heel-toe cam. top out is hard, trust high foot\"\n                    },\n                    {\n                        id: \"route2\",\n                        name: \"the blue one\",\n                        grade: \"v2\",\n                        image: \"/images/route1.jpg\",\n                        description: \"piches in the middle, tough topout\",\n                        beta: \"don't miss the heel-toe cam. top out is hard, trust high foot\"\n                    },\n                    {\n                        id: \"route3\",\n                        name: \"the red one\",\n                        grade: \"v6\",\n                        image: \"/images/route1.jpg\",\n                        description: \"piches in the middle, tough topout\",\n                        beta: \"don't miss the heel-toe cam. top out is hard, trust high foot\"\n                    }, \n                ]\n            },\n            {\n                id: \"wall2\",\n                name: \"Overhang wall\",\n                image: \"/images/overhang-wall.jpg\",\n                climbs: [\n                    {\n                        id: \"route1\",\n                        name: \"the blue one\",\n                        grade: \"v7\",\n                        image: \"/images/climb-east.jpg\",\n                        description: \"piches in the middle, tough topout\",\n                        beta: \"don't miss the heel-toe cam. top out is hard, trust high foot\"\n                    },\n                    {\n                        id: \"route2\",\n                        name: \"the green one\",\n                        grade: \"v6\",\n                        image: \"/images/climb-east.jpg\",\n                        description: \"piches in the middle, tough topout\",\n                        beta: \"don't miss the heel-toe cam. top out is hard, trust high foot\"\n                    },\n                    {\n                        id: \"route3\",\n                        name: \"the orange one\",\n                        grade: \"v7\",\n                        image: \"/images/climb-east.jpg\",\n                        description: \"piches in the middle, tough topout\",\n                        beta: \"don't miss the heel-toe cam. top out is hard, trust high foot\"\n                    }, \n                ]\n            }, \n        ]\n    },\n    {\n        id: \"gym2\",\n        name: \"Climb Nashville West\",\n        image: \"/images/climb-west.jpg\",\n        address: \"West Nashville Nashville, TN\",\n        description: \"You can do all kinds of climbing here!\",\n        walls: []\n    },\n    {\n        id: \"gym3\",\n        name: \"The other Nashville Gym\",\n        image: \"/images/crag-nashville.jpg\",\n        address: \"Somewhere South Nashville, TN\",\n        description: \"Let's find out what we can do here!\",\n        walls: []\n    }, \n];\nfunction getAllGymData() {\n    return gymData;\n}\nfunction getGymData(gymId) {\n    return gymData.find((gym)=>gym.id === gymId\n    );\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,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RUFBRSxLQUFLVyxLQUFLO0lBQUEsQ0FBQyxDQUFDO0NBQ2hEIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vY2xpbWJpbmctYXBwLXYxLy4vZ3ltLWRhdGEuanM/ZjkyMiJdLCJzb3VyY2VzQ29udGVudCI6WyJjb25zdCBneW1EYXRhID0gW1xyXG4gIHtcclxuICAgIGlkOiBcImd5bTFcIixcclxuICAgIG5hbWU6IFwiQ2xpbWIgTmFzaHZpbGxlIEVhc3RcIixcclxuICAgIGltYWdlOiBcIi9pbWFnZXMvY2xpbWItZWFzdC5qcGdcIixcclxuICAgIGFkZHJlc3M6IFwiRWFzdCBOYXNodmlsbGUgTmFzaHZpbGxlLCBUTlwiLFxyXG4gICAgZGVzY3JpcHRpb246IFwiVGhlcmUgaXMgYSBsb3Qgb2YgZnVuIGJvdWxkZXJpbmcgaGVyZSFcIixcclxuICAgIHdhbGxzOiBbXHJcbiAgICAgIHtcclxuICAgICAgICBpZDogXCJ3YWxsMVwiLFxyXG4gICAgICAgIG5hbWU6IFwidmVydGljYWwgd2FsbFwiLFxyXG4gICAgICAgIGltYWdlOiBcIi9pbWFnZXMvdmVydGljYWwtd2FsbC5qcGdcIixcclxuICAgICAgICBjbGltYnM6IFtcclxuICAgICAgICAgIHtcclxuICAgICAgICAgICAgaWQ6IFwicm91dGUxXCIsXHJcbiAgICAgICAgICAgIG5hbWU6IFwidGhlIHBpbmsgb25lXCIsXHJcbiAgICAgICAgICAgIGdyYWRlOiBcInYxXCIsXHJcbiAgICAgICAgICAgIGltYWdlOiBcIi9pbWFnZXMvcm91dGUxLmpwZ1wiLFxyXG4gICAgICAgICAgICBkZXNjcmlwdGlvbjogXCJwaWNoZXMgaW4gdGhlIG1pZGRsZSwgdG91Z2ggdG9wb3V0XCIsXHJcbiAgICAgICAgICAgIGJldGE6IFwiZG9uJ3QgbWlzcyB0aGUgaGVlbC10b2UgY2FtLiB0b3Agb3V0IGlzIGhhcmQsIHRydXN0IGhpZ2ggZm9vdFwiLFxyXG4gICAgICAgICAgfSxcclxuICAgICAgICAgIHtcclxuICAgICAgICAgICAgaWQ6IFwicm91dGUyXCIsXHJcbiAgICAgICAgICAgIG5hbWU6IFwidGhlIGJsdWUgb25lXCIsXHJcbiAgICAgICAgICAgIGdyYWRlOiBcInYyXCIsXHJcbiAgICAgICAgICAgIGltYWdlOiBcIi9pbWFnZXMvcm91dGUxLmpwZ1wiLFxyXG4gICAgICAgICAgICBkZXNjcmlwdGlvbjogXCJwaWNoZXMgaW4gdGhlIG1pZGRsZSwgdG91Z2ggdG9wb3V0XCIsXHJcbiAgICAgICAgICAgIGJldGE6IFwiZG9uJ3QgbWlzcyB0aGUgaGVlbC10b2UgY2FtLiB0b3Agb3V0IGlzIGhhcmQsIHRydXN0IGhpZ2ggZm9vdFwiLFxyXG4gICAgICAgICAgfSxcclxuICAgICAgICAgIHtcclxuICAgICAgICAgICAgaWQ6IFwicm91dGUzXCIsXHJcbiAgICAgICAgICAgIG5hbWU6IFwidGhlIHJlZCBvbmVcIixcclxuICAgICAgICAgICAgZ3JhZGU6IFwidjZcIixcclxuICAgICAgICAgICAgaW1hZ2U6IFwiL2ltYWdlcy9yb3V0ZTEuanBnXCIsXHJcbiAgICAgICAgICAgIGRlc2NyaXB0aW9uOiBcInBpY2hlcyBpbiB0aGUgbWlkZGxlLCB0b3VnaCB0b3BvdXRcIixcclxuICAgICAgICAgICAgYmV0YTogXCJkb24ndCBtaXNzIHRoZSBoZWVsLXRvZSBjYW0uIHRvcCBvdXQgaXMgaGFyZCwgdHJ1c3QgaGlnaCBmb290XCIsXHJcbiAgICAgICAgICB9LFxyXG4gICAgICAgIF0sXHJcbiAgICAgIH0sXHJcbiAgICAgIHtcclxuICAgICAgICBpZDogXCJ3YWxsMlwiLFxyXG4gICAgICAgIG5hbWU6IFwiT3Zlcmhhbmcgd2FsbFwiLFxyXG4gICAgICAgIGltYWdlOiBcIi9pbWFnZXMvb3Zlcmhhbmctd2FsbC5qcGdcIixcclxuICAgICAgICBjbGltYnM6IFtcclxuICAgICAgICAgIHtcclxuICAgICAgICAgICAgaWQ6IFwicm91dGUxXCIsXHJcbiAgICAgICAgICAgIG5hbWU6IFwidGhlIGJsdWUgb25lXCIsXHJcbiAgICAgICAgICAgIGdyYWRlOiBcInY3XCIsXHJcbiAgICAgICAgICAgIGltYWdlOiBcIi9pbWFnZXMvY2xpbWItZWFzdC5qcGdcIixcclxuICAgICAgICAgICAgZGVzY3JpcHRpb246IFwicGljaGVzIGluIHRoZSBtaWRkbGUsIHRvdWdoIHRvcG91dFwiLFxyXG4gICAgICAgICAgICBiZXRhOiBcImRvbid0IG1pc3MgdGhlIGhlZWwtdG9lIGNhbS4gdG9wIG91dCBpcyBoYXJkLCB0cnVzdCBoaWdoIGZvb3RcIixcclxuICAgICAgICAgIH0sXHJcbiAgICAgICAgICB7XHJcbiAgICAgICAgICAgIGlkOiBcInJvdXRlMlwiLFxyXG4gICAgICAgICAgICBuYW1lOiBcInRoZSBncmVlbiBvbmVcIixcclxuICAgICAgICAgICAgZ3JhZGU6IFwidjZcIixcclxuICAgICAgICAgICAgaW1hZ2U6IFwiL2ltYWdlcy9jbGltYi1lYXN0LmpwZ1wiLFxyXG4gICAgICAgICAgICBkZXNjcmlwdGlvbjogXCJwaWNoZXMgaW4gdGhlIG1pZGRsZSwgdG91Z2ggdG9wb3V0XCIsXHJcbiAgICAgICAgICAgIGJldGE6IFwiZG9uJ3QgbWlzcyB0aGUgaGVlbC10b2UgY2FtLiB0b3Agb3V0IGlzIGhhcmQsIHRydXN0IGhpZ2ggZm9vdFwiLFxyXG4gICAgICAgICAgfSxcclxuICAgICAgICAgIHtcclxuICAgICAgICAgICAgaWQ6IFwicm91dGUzXCIsXHJcbiAgICAgICAgICAgIG5hbWU6IFwidGhlIG9yYW5nZSBvbmVcIixcclxuICAgICAgICAgICAgZ3JhZGU6IFwidjdcIixcclxuICAgICAgICAgICAgaW1hZ2U6IFwiL2ltYWdlcy9jbGltYi1lYXN0LmpwZ1wiLFxyXG4gICAgICAgICAgICBkZXNjcmlwdGlvbjogXCJwaWNoZXMgaW4gdGhlIG1pZGRsZSwgdG91Z2ggdG9wb3V0XCIsXHJcbiAgICAgICAgICAgIGJldGE6IFwiZG9uJ3QgbWlzcyB0aGUgaGVlbC10b2UgY2FtLiB0b3Agb3V0IGlzIGhhcmQsIHRydXN0IGhpZ2ggZm9vdFwiLFxyXG4gICAgICAgICAgfSxcclxuICAgICAgICBdLFxyXG4gICAgICB9LFxyXG4gICAgXSxcclxuICB9LFxyXG4gIHtcclxuICAgIGlkOiBcImd5bTJcIixcclxuICAgIG5hbWU6IFwiQ2xpbWIgTmFzaHZpbGxlIFdlc3RcIixcclxuICAgIGltYWdlOiBcIi9pbWFnZXMvY2xpbWItd2VzdC5qcGdcIixcclxuICAgIGFkZHJlc3M6IFwiV2VzdCBOYXNodmlsbGUgTmFzaHZpbGxlLCBUTlwiLFxyXG4gICAgZGVzY3JpcHRpb246IFwiWW91IGNhbiBkbyBhbGwga2luZHMgb2YgY2xpbWJpbmcgaGVyZSFcIixcclxuICAgIHdhbGxzOiBbXSxcclxuICB9LFxyXG4gIHtcclxuICAgIGlkOiBcImd5bTNcIixcclxuICAgIG5hbWU6IFwiVGhlIG90aGVyIE5hc2h2aWxsZSBHeW1cIixcclxuICAgIGltYWdlOiBcIi9pbWFnZXMvY3JhZy1uYXNodmlsbGUuanBnXCIsXHJcbiAgICBhZGRyZXNzOiBcIlNvbWV3aGVyZSBTb3V0aCBOYXNodmlsbGUsIFROXCIsXHJcbiAgICBkZXNjcmlwdGlvbjogXCJMZXQncyBmaW5kIG91dCB3aGF0IHdlIGNhbiBkbyBoZXJlIVwiLFxyXG4gICAgd2FsbHM6IFtdLFxyXG4gIH0sXHJcbl07XHJcblxyXG5leHBvcnQgZnVuY3Rpb24gZ2V0QWxsR3ltRGF0YSgpIHtcclxuICByZXR1cm4gZ3ltRGF0YTtcclxufVxyXG5cclxuZXhwb3J0IGZ1bmN0aW9uIGdldEd5bURhdGEoZ3ltSWQpIHtcclxuICByZXR1cm4gZ3ltRGF0YS5maW5kKChneW0pID0+IGd5bS5pZCA9PT0gZ3ltSWQpO1xyXG59XHJcbiJdLCJuYW1lcyI6WyJneW1EYXRhIiwiaWQiLCJuYW1lIiwiaW1hZ2UiLCJhZGRyZXNzIiwiZGVzY3JpcHRpb24iLCJ3YWxscyIsImNsaW1icyIsImdyYWRlIiwiYmV0YSIsImdldEFsbEd5bURhdGEiLCJnZXRHeW1EYXRhIiwiZ3ltSWQiLCJmaW5kIiwiZ3ltIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./gym-data.js\n");
-
-/***/ }),
-
-/***/ "./pages/[gymId]/index.js":
-/*!********************************!*\
-  !*** ./pages/[gymId]/index.js ***!
-  \********************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ SpecificGym)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _components_ui_gym_header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../components/ui/gym-header */ \"./components/ui/gym-header.js\");\n/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/router */ \"next/router\");\n/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _gym_data__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../gym-data */ \"./gym-data.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var _components_wall_list__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../components/wall-list */ \"./components/wall-list.js\");\n\n\n\n\n\n\nfunction SpecificGym(props) {\n    const router = (0,next_router__WEBPACK_IMPORTED_MODULE_2__.useRouter)();\n    const gymId = router.query.gymId;\n    const gym = (0,_gym_data__WEBPACK_IMPORTED_MODULE_3__.getGymData)(gymId);\n    if (!gym) {\n        return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n            children: \"Loading....\"\n        }, void 0, false, {\n            fileName: \"C:\\\\Users\\\\cturgeon\\\\Desktop\\\\NextJS\\\\climbing-app-v1\\\\pages\\\\[gymId]\\\\index.js\",\n            lineNumber: 12,\n            columnNumber: 12\n        }, this);\n    }\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react__WEBPACK_IMPORTED_MODULE_4__.Fragment, {\n            children: [\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_ui_gym_header__WEBPACK_IMPORTED_MODULE_1__[\"default\"], {\n                    id: gym.id,\n                    name: gym.name,\n                    description: gym.description,\n                    image: gym.image,\n                    address: gym.address\n                }, gym.id, false, {\n                    fileName: \"C:\\\\Users\\\\cturgeon\\\\Desktop\\\\NextJS\\\\climbing-app-v1\\\\pages\\\\[gymId]\\\\index.js\",\n                    lineNumber: 18,\n                    columnNumber: 9\n                }, this),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_wall_list__WEBPACK_IMPORTED_MODULE_5__[\"default\"], {\n                    items: gym.walls\n                }, void 0, false, {\n                    fileName: \"C:\\\\Users\\\\cturgeon\\\\Desktop\\\\NextJS\\\\climbing-app-v1\\\\pages\\\\[gymId]\\\\index.js\",\n                    lineNumber: 26,\n                    columnNumber: 9\n                }, this)\n            ]\n        }, void 0, true, {\n            fileName: \"C:\\\\Users\\\\cturgeon\\\\Desktop\\\\NextJS\\\\climbing-app-v1\\\\pages\\\\[gymId]\\\\index.js\",\n            lineNumber: 17,\n            columnNumber: 7\n        }, this)\n    }, void 0, false, {\n        fileName: \"C:\\\\Users\\\\cturgeon\\\\Desktop\\\\NextJS\\\\climbing-app-v1\\\\pages\\\\[gymId]\\\\index.js\",\n        lineNumber: 16,\n        columnNumber: 5\n    }, this);\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy9bZ3ltSWRdL2luZGV4LmpzLmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7QUFBQTtBQUF1RDtBQUNmO0FBQ0k7QUFDWDtBQUNpQjtBQUVuQyxTQUFTSyxXQUFXLENBQUNDLEtBQUssRUFBRTtJQUN6QyxNQUFNQyxNQUFNLEdBQUdOLHNEQUFTLEVBQUU7SUFDMUIsTUFBTU8sS0FBSyxHQUFHRCxNQUFNLENBQUNFLEtBQUssQ0FBQ0QsS0FBSztJQUNoQyxNQUFNRSxHQUFHLEdBQUdSLHFEQUFVLENBQUNNLEtBQUssQ0FBQztJQUM3QixJQUFJLENBQUNFLEdBQUcsRUFBRTtRQUNSLHFCQUFPLDhEQUFDQyxHQUFDO3NCQUFDLGFBQVc7Ozs7O2dCQUFJLENBQUM7S0FDM0I7SUFFRCxxQkFDRSw4REFBQ0MsS0FBRztrQkFDRiw0RUFBQ1QsMkNBQVE7OzhCQUNQLDhEQUFDSCxpRUFBUztvQkFFUmEsRUFBRSxFQUFFSCxHQUFHLENBQUNHLEVBQUU7b0JBQ1ZDLElBQUksRUFBRUosR0FBRyxDQUFDSSxJQUFJO29CQUNkQyxXQUFXLEVBQUVMLEdBQUcsQ0FBQ0ssV0FBVztvQkFDNUJDLEtBQUssRUFBRU4sR0FBRyxDQUFDTSxLQUFLO29CQUNoQkMsT0FBTyxFQUFFUCxHQUFHLENBQUNPLE9BQU87bUJBTGZQLEdBQUcsQ0FBQ0csRUFBRTs7Ozt3QkFNWDs4QkFDRiw4REFBQ1QsNkRBQVE7b0JBQUNjLEtBQUssRUFBRVIsR0FBRyxDQUFDUyxLQUFLOzs7Ozt3QkFBSTs7Ozs7O2dCQUNyQjs7Ozs7WUFDUCxDQUNOO0NBQ0giLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9jbGltYmluZy1hcHAtdjEvLi9wYWdlcy9bZ3ltSWRdL2luZGV4LmpzPzlhYzQiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IEd5bUhlYWRlciBmcm9tIFwiLi4vLi4vY29tcG9uZW50cy91aS9neW0taGVhZGVyXCI7XHJcbmltcG9ydCB7IHVzZVJvdXRlciB9IGZyb20gXCJuZXh0L3JvdXRlclwiO1xyXG5pbXBvcnQgeyBnZXRHeW1EYXRhIH0gZnJvbSBcIi4uLy4uL2d5bS1kYXRhXCI7XHJcbmltcG9ydCB7IEZyYWdtZW50IH0gZnJvbSBcInJlYWN0XCI7XHJcbmltcG9ydCBXYWxsTGlzdCBmcm9tIFwiLi4vLi4vY29tcG9uZW50cy93YWxsLWxpc3RcIjtcclxuXHJcbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIFNwZWNpZmljR3ltKHByb3BzKSB7XHJcbiAgY29uc3Qgcm91dGVyID0gdXNlUm91dGVyKCk7XHJcbiAgY29uc3QgZ3ltSWQgPSByb3V0ZXIucXVlcnkuZ3ltSWQ7XHJcbiAgY29uc3QgZ3ltID0gZ2V0R3ltRGF0YShneW1JZCk7XHJcbiAgaWYgKCFneW0pIHtcclxuICAgIHJldHVybiA8cD5Mb2FkaW5nLi4uLjwvcD47XHJcbiAgfVxyXG5cclxuICByZXR1cm4gKFxyXG4gICAgPGRpdj5cclxuICAgICAgPEZyYWdtZW50PlxyXG4gICAgICAgIDxHeW1IZWFkZXJcclxuICAgICAgICAgIGtleT17Z3ltLmlkfVxyXG4gICAgICAgICAgaWQ9e2d5bS5pZH1cclxuICAgICAgICAgIG5hbWU9e2d5bS5uYW1lfVxyXG4gICAgICAgICAgZGVzY3JpcHRpb249e2d5bS5kZXNjcmlwdGlvbn1cclxuICAgICAgICAgIGltYWdlPXtneW0uaW1hZ2V9XHJcbiAgICAgICAgICBhZGRyZXNzPXtneW0uYWRkcmVzc31cclxuICAgICAgICAvPlxyXG4gICAgICAgIDxXYWxsTGlzdCBpdGVtcz17Z3ltLndhbGxzfSAvPlxyXG4gICAgICA8L0ZyYWdtZW50PlxyXG4gICAgPC9kaXY+XHJcbiAgKTtcclxufVxyXG4iXSwibmFtZXMiOlsiR3ltSGVhZGVyIiwidXNlUm91dGVyIiwiZ2V0R3ltRGF0YSIsIkZyYWdtZW50IiwiV2FsbExpc3QiLCJTcGVjaWZpY0d5bSIsInByb3BzIiwicm91dGVyIiwiZ3ltSWQiLCJxdWVyeSIsImd5bSIsInAiLCJkaXYiLCJpZCIsIm5hbWUiLCJkZXNjcmlwdGlvbiIsImltYWdlIiwiYWRkcmVzcyIsIml0ZW1zIiwid2FsbHMiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./pages/[gymId]/index.js\n");
-
-/***/ }),
-
-/***/ "@mantine/core":
-/*!********************************!*\
-  !*** external "@mantine/core" ***!
-  \********************************/
+/***/ 247:
 /***/ ((module) => {
 
 module.exports = require("@mantine/core");
 
 /***/ }),
 
-/***/ "next/router":
-/*!******************************!*\
-  !*** external "next/router" ***!
-  \******************************/
-/***/ ((module) => {
-
-module.exports = require("next/router");
-
-/***/ }),
-
-/***/ "react":
-/*!************************!*\
-  !*** external "react" ***!
-  \************************/
+/***/ 689:
 /***/ ((module) => {
 
 module.exports = require("react");
 
 /***/ }),
 
-/***/ "react/jsx-dev-runtime":
-/*!****************************************!*\
-  !*** external "react/jsx-dev-runtime" ***!
-  \****************************************/
+/***/ 997:
 /***/ ((module) => {
 
-module.exports = require("react/jsx-dev-runtime");
+module.exports = require("react/jsx-runtime");
 
 /***/ })
 
@@ -120,7 +278,7 @@ module.exports = require("react/jsx-dev-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = (__webpack_exec__("./pages/[gymId]/index.js"));
+var __webpack_exports__ = (__webpack_exec__(425));
 module.exports = __webpack_exports__;
 
 })();

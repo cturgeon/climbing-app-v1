@@ -12,3 +12,8 @@ export async function getAllGyms() {
   }
   return gymData;
 }
+
+export async function getGymById(id) {
+  let gymData = await getAllGyms();
+  return gymData.find((gym) => gym.id === id);
+}

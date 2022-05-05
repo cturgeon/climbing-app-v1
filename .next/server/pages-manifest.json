@@ -1,8 +1,10 @@
 {
+  "/[gymId]/[wallId]/[routeId]": "pages/[gymId]/[wallId]/[routeId].html",
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
   "/_error": "pages/_error.js",
-  "/[gymId]": "pages/[gymId].js",
   "/": "pages/index.js",
-  "/[gymId]/[wallId]": "pages/[gymId]/[wallId].js"
+  "/[gymId]/[wallId]": "pages/[gymId]/[wallId].js",
+  "/[gymId]": "pages/[gymId].js",
+  "/404": "pages/404.html"
 }
