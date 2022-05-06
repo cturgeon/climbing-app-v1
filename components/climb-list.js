@@ -1,4 +1,5 @@
 import ClimbItem from "./climb-item";
+import { Grid } from "@mantine/core";
 
 export default function ClimbList(props) {
   const climbingRoutes = props.items;
@@ -17,16 +18,18 @@ export default function ClimbList(props) {
 
   return (
     <ul>
-      {climbs.map((route) => (
-        <ClimbItem
-          key={route.id}
-          id={route.id}
-          image={route.image}
-          name={route.name}
-          grade={route.grade}
-          description={route.description}
-        />
-      ))}
+      <Grid justify="center" spacing="md">
+        {climbs.map((route) => (
+          <ClimbItem
+            key={route.id}
+            id={route.id}
+            image={route.image}
+            name={route.name}
+            grade={route.grade}
+            description={route.description}
+          />
+        ))}
+      </Grid>
     </ul>
   );
 }

@@ -19,7 +19,7 @@ export default function WallCard(props) {
       <Card shadow="sm" p="lg">
         <Card.Section>
           {/* TODO change after adding my own images */}
-          <Image src={image} height={160} alt={id} />
+          <Image src={image} height={200} width={500} alt={id} />
         </Card.Section>
 
         <Group

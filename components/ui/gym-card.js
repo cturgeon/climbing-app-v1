@@ -19,7 +19,6 @@ export default function GymCard(props) {
     <div style={{ width: 340, margin: "auto" }}>
       <Card shadow="sm" p="lg">
         <Card.Section>
-          {/* TODO change after adding my own images */}
           <Image src={image} height={160} alt={id} />
         </Card.Section>
 

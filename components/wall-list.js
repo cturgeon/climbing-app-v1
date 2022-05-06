@@ -1,9 +1,9 @@
 import WallItem from "./wall-item";
+import { Grid, Space } from "@mantine/core";
 
 export default function WallList(props) {
   const wallsData = props.items;
   const walls = [];
-  // not quite sure I needed to collect the data here. might be an api thing. TODO look up later
   for (let key in wallsData) {
     walls.push({
       id: key,
@@ -15,14 +15,16 @@ export default function WallList(props) {
   }
   return (
     <div>
-      {walls.map((wall) => (
-        <WallItem
-          key={wall.id}
-          id={wall.id}
-          image={wall.image}
-          name={wall.name}
-        />
-      ))}
+      <Grid justify="center" spacing="md">
+        {walls.map((wall) => (
+          <WallItem
+            key={wall.id}
+            id={wall.id}
+            image={wall.image}
+            name={wall.name}
+          />
+        ))}
+      </Grid>
     </div>
   );
 }

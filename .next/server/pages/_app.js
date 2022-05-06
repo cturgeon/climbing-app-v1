@@ -1,142 +1,65 @@
 "use strict";
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
 (() => {
 var exports = {};
-exports.id = 888;
-exports.ids = [888];
+exports.id = "pages/_app";
+exports.ids = ["pages/_app"];
 exports.modules = {
 
-/***/ 14:
+/***/ "./pages/_app.tsx":
+/*!************************!*\
+  !*** ./pages/_app.tsx ***!
+  \************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-// ESM COMPAT FLAG
-__webpack_require__.r(__webpack_exports__);
-
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, {
-  "default": () => (/* binding */ App)
-});
-
-// EXTERNAL MODULE: external "react/jsx-runtime"
-var jsx_runtime_ = __webpack_require__(997);
-;// CONCATENATED MODULE: external "next/head"
-const head_namespaceObject = require("next/head");
-var head_default = /*#__PURE__*/__webpack_require__.n(head_namespaceObject);
-// EXTERNAL MODULE: external "@mantine/core"
-var core_ = __webpack_require__(247);
-// EXTERNAL MODULE: external "react"
-var external_react_ = __webpack_require__(689);
-;// CONCATENATED MODULE: ./pages/_app.tsx
-
-
-
-
-function App(props) {
-    const { Component , pageProps  } = props;
-    const theme1 = (0,core_.useMantineTheme)();
-    const { 0: opened , 1: setOpened  } = (0,external_react_.useState)(false);
-    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)(jsx_runtime_.Fragment, {
-        children: [
-            /*#__PURE__*/ (0,jsx_runtime_.jsxs)((head_default()), {
-                children: [
-                    /*#__PURE__*/ jsx_runtime_.jsx("title", {
-                        children: "Climbing App"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("meta", {
-                        name: "viewport",
-                        content: "minimum-scale=1, initial-scale=1, width=device-width"
-                    })
-                ]
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx(core_.AppShell, {
-                padding: "md",
-                header: /*#__PURE__*/ jsx_runtime_.jsx(core_.Header, {
-                    height: 70,
-                    p: "md",
-                    children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                        style: {
-                            display: "flex",
-                            alignItems: "center",
-                            height: "100%"
-                        },
-                        children: [
-                            /*#__PURE__*/ jsx_runtime_.jsx(core_.MediaQuery, {
-                                largerThan: "sm",
-                                styles: {
-                                    display: "none"
-                                },
-                                children: /*#__PURE__*/ jsx_runtime_.jsx(core_.Burger, {
-                                    opened: opened,
-                                    onClick: ()=>setOpened((o)=>!o
-                                        )
-                                    ,
-                                    size: "sm",
-                                    color: theme1.colors.gray[6],
-                                    mr: "xl"
-                                })
-                            }),
-                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)(core_.Group, {
-                                position: "apart",
-                                sx: {
-                                    height: "100%"
-                                },
-                                px: 20,
-                                children: [
-                                    /*#__PURE__*/ jsx_runtime_.jsx(core_.Text, {
-                                        transform: "capitalize",
-                                        children: "Welcome to the climbing app!"
-                                    }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx(core_.Button, {
-                                        component: "a",
-                                        href: "/",
-                                        children: "Home"
-                                    })
-                                ]
-                            })
-                        ]
-                    })
-                }),
-                styles: (theme)=>({
-                        main: {
-                            backgroundColor: theme.colorScheme === "dark" ? theme.colors.dark[8] : theme.colors.gray[0]
-                        }
-                    })
-                ,
-                children: /*#__PURE__*/ jsx_runtime_.jsx(core_.MantineProvider, {
-                    withGlobalStyles: true,
-                    withNormalizeCSS: true,
-                    theme: {
-                        /** Put your mantine theme override here */ colorScheme: "light"
-                    },
-                    children: /*#__PURE__*/ jsx_runtime_.jsx(Component, {
-                        ...pageProps
-                    })
-                })
-            })
-        ]
-    });
-};
-
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ App)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ \"next/head\");\n/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _mantine_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @mantine/core */ \"@mantine/core\");\n/* harmony import */ var _mantine_core__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_mantine_core__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_3__);\n\n\n\n\nfunction App(props) {\n    const { Component , pageProps  } = props;\n    const theme1 = (0,_mantine_core__WEBPACK_IMPORTED_MODULE_2__.useMantineTheme)();\n    const { 0: opened , 1: setOpened  } = (0,react__WEBPACK_IMPORTED_MODULE_3__.useState)(false);\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((next_head__WEBPACK_IMPORTED_MODULE_1___default()), {\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"title\", {\n                        children: \"Climbing App\"\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\cturgeon\\\\Desktop\\\\NextJS\\\\climbing-app-v1\\\\pages\\\\_app.tsx\",\n                        lineNumber: 16,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                        name: \"viewport\",\n                        content: \"minimum-scale=1, initial-scale=1, width=device-width\"\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\cturgeon\\\\Desktop\\\\NextJS\\\\climbing-app-v1\\\\pages\\\\_app.tsx\",\n                        lineNumber: 17,\n                        columnNumber: 9\n                    }, this)\n                ]\n            }, void 0, true, {\n                fileName: \"C:\\\\Users\\\\cturgeon\\\\Desktop\\\\NextJS\\\\climbing-app-v1\\\\pages\\\\_app.tsx\",\n                lineNumber: 15,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_mantine_core__WEBPACK_IMPORTED_MODULE_2__.AppShell, {\n                padding: \"md\",\n                header: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_mantine_core__WEBPACK_IMPORTED_MODULE_2__.Header, {\n                    height: 70,\n                    p: \"md\",\n                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                        style: {\n                            display: \"flex\",\n                            alignItems: \"center\",\n                            height: \"100%\"\n                        },\n                        children: [\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_mantine_core__WEBPACK_IMPORTED_MODULE_2__.MediaQuery, {\n                                largerThan: \"sm\",\n                                styles: {\n                                    display: \"none\"\n                                },\n                                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_mantine_core__WEBPACK_IMPORTED_MODULE_2__.Burger, {\n                                    opened: opened,\n                                    onClick: ()=>setOpened((o)=>!o\n                                        )\n                                    ,\n                                    size: \"sm\",\n                                    color: theme1.colors.gray[6],\n                                    mr: \"xl\"\n                                }, void 0, false, void 0, void 0)\n                            }, void 0, false, void 0, void 0),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_mantine_core__WEBPACK_IMPORTED_MODULE_2__.Group, {\n                                position: \"apart\",\n                                sx: {\n                                    height: \"100%\"\n                                },\n                                px: 20,\n                                children: [\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_mantine_core__WEBPACK_IMPORTED_MODULE_2__.Text, {\n                                        transform: \"capitalize\",\n                                        children: \"Welcome to the climbing app!\"\n                                    }, void 0, false, void 0, void 0),\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_mantine_core__WEBPACK_IMPORTED_MODULE_2__.Button, {\n                                        component: \"a\",\n                                        href: \"/\",\n                                        children: \"Home\"\n                                    }, void 0, false, void 0, void 0)\n                                ]\n                            }, void 0, true, void 0, void 0)\n                        ]\n                    }, void 0, true, void 0, void 0)\n                }, void 0, false, void 0, void 0),\n                styles: (theme)=>({\n                        main: {\n                            backgroundColor: theme.colorScheme === \"dark\" ? theme.colors.dark[8] : theme.colors.gray[0]\n                        }\n                    })\n                ,\n                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_mantine_core__WEBPACK_IMPORTED_MODULE_2__.MantineProvider, {\n                    withGlobalStyles: true,\n                    withNormalizeCSS: true,\n                    theme: {\n                        /** Put your mantine theme override here */ colorScheme: \"light\"\n                    },\n                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(Component, {\n                        ...pageProps\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\cturgeon\\\\Desktop\\\\NextJS\\\\climbing-app-v1\\\\pages\\\\_app.tsx\",\n                        lineNumber: 52,\n                        columnNumber: 9\n                    }, this)\n                }, void 0, false, {\n                    fileName: \"C:\\\\Users\\\\cturgeon\\\\Desktop\\\\NextJS\\\\climbing-app-v1\\\\pages\\\\_app.tsx\",\n                    lineNumber: 44,\n                    columnNumber: 7\n                }, this)\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\cturgeon\\\\Desktop\\\\NextJS\\\\climbing-app-v1\\\\pages\\\\_app.tsx\",\n                lineNumber: 19,\n                columnNumber: 7\n            }, this)\n        ]\n    }, void 0, true);\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy9fYXBwLnRzeC5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7QUFBQTtBQUM2QjtBQUMrRztBQUMzRztBQUVsQixTQUFTVyxHQUFHLENBQUNDLEtBQWUsRUFBRTtJQUMzQyxNQUFNLEVBQUVDLFNBQVMsR0FBRUMsU0FBUyxHQUFFLEdBQUdGLEtBQUs7SUFDdEMsTUFBTUcsTUFBSyxHQUFHVCw4REFBZSxFQUFFO0lBQy9CLE1BQU0sRUFSUixHQVFTVSxNQUFNLEdBUmYsR0FRaUJDLFNBQVMsTUFBSVAsK0NBQVEsQ0FBQyxLQUFLLENBQUM7SUFFM0MscUJBR0U7OzBCQUNFLDhEQUFDVixrREFBSTs7a0NBQ0gsOERBQUNrQixPQUFLO2tDQUFDLGNBQVk7Ozs7OzRCQUFRO2tDQUMzQiw4REFBQ0MsTUFBSTt3QkFBQ0MsSUFBSSxFQUFDLFVBQVU7d0JBQUNDLE9BQU8sRUFBQyxzREFBc0Q7Ozs7OzRCQUFHOzs7Ozs7b0JBQ2xGOzBCQUNQLDhEQUFDbkIsbURBQVE7Z0JBQ1BvQixPQUFPLEVBQUMsSUFBSTtnQkFDWkMsTUFBTSxnQkFBRSw4REFBQ3BCLGlEQUFNO29CQUFDcUIsTUFBTSxFQUFFLEVBQUU7b0JBQUVDLENBQUMsRUFBQyxJQUFJOzhCQUM5Qiw0RUFBQ0MsS0FBRzt3QkFBQ0MsS0FBSyxFQUFFOzRCQUFFQyxPQUFPLEVBQUUsTUFBTTs0QkFBRUMsVUFBVSxFQUFFLFFBQVE7NEJBQUVMLE1BQU0sRUFBRSxNQUFNO3lCQUFFOzswQ0FDbkUsOERBQUNwQixxREFBVTtnQ0FBQzBCLFVBQVUsRUFBQyxJQUFJO2dDQUFDQyxNQUFNLEVBQUU7b0NBQUVILE9BQU8sRUFBRSxNQUFNO2lDQUFFOzBDQUNyRCw0RUFBQ3ZCLGlEQUFNO29DQUNMVyxNQUFNLEVBQUVBLE1BQU07b0NBQ2RnQixPQUFPLEVBQUUsSUFBTWYsU0FBUyxDQUFDLENBQUNnQixDQUFDLEdBQUssQ0FBQ0EsQ0FBQzt3Q0FBQSxDQUFDO29DQUFBO29DQUNuQ0MsSUFBSSxFQUFDLElBQUk7b0NBQ1RDLEtBQUssRUFBRXBCLE1BQUssQ0FBQ3FCLE1BQU0sQ0FBQ0MsSUFBSSxDQUFDLENBQUMsQ0FBQztvQ0FDM0JDLEVBQUUsRUFBQyxJQUFJO2lFQUNQOzZEQUNTOzBDQUNiLDhEQUFDN0IsZ0RBQUs7Z0NBQUM4QixRQUFRLEVBQUMsT0FBTztnQ0FBQ0MsRUFBRSxFQUFFO29DQUFFaEIsTUFBTSxFQUFFLE1BQU07aUNBQUU7Z0NBQUVpQixFQUFFLEVBQUUsRUFBRTs7a0RBQ3BELDhEQUFDbEMsK0NBQUk7d0NBQUNtQyxTQUFTLEVBQUMsWUFBWTtrREFBQyw4QkFFN0I7cUVBQU87a0RBQ1AsOERBQUNsQyxpREFBTTt3Q0FBQ21DLFNBQVMsRUFBQyxHQUFHO3dDQUFDQyxJQUFJLEVBQUMsR0FBRztrREFBQyxNQUFJO3FFQUFTOzs0REFDdEM7O29EQUNKO2lEQUNDO2dCQUNYYixNQUFNLEVBQUUsQ0FBQ2hCLEtBQUssR0FBSyxDQUFDO3dCQUNsQjhCLElBQUksRUFBRTs0QkFBRUMsZUFBZSxFQUFFL0IsS0FBSyxDQUFDZ0MsV0FBVyxLQUFLLE1BQU0sR0FBR2hDLEtBQUssQ0FBQ3FCLE1BQU0sQ0FBQ1ksSUFBSSxDQUFDLENBQUMsQ0FBQyxHQUFHakMsS0FBSyxDQUFDcUIsTUFBTSxDQUFDQyxJQUFJLENBQUMsQ0FBQyxDQUFDO3lCQUFFO3FCQUN0RyxDQUFDO2dCQUFBOzBCQUVKLDRFQUFDcEMsMERBQWU7b0JBQ2RnRCxnQkFBZ0I7b0JBQ2hCQyxnQkFBZ0I7b0JBQ2hCbkMsS0FBSyxFQUFFO3dCQUNMLDJDQUEyQyxDQUMzQ2dDLFdBQVcsRUFBRSxPQUFPO3FCQUNyQjs4QkFFRCw0RUFBQ2xDLFNBQVM7d0JBQUUsR0FBR0MsU0FBUzs7Ozs7NEJBQUk7Ozs7O3dCQUNaOzs7OztvQkFDUDs7b0JBQ1YsQ0FDSDtDQUNIIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vY2xpbWJpbmctYXBwLXYxLy4vcGFnZXMvX2FwcC50c3g/MmZiZSJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBBcHBQcm9wcyB9IGZyb20gJ25leHQvYXBwJztcclxuaW1wb3J0IEhlYWQgZnJvbSAnbmV4dC9oZWFkJztcclxuaW1wb3J0IHsgTWFudGluZVByb3ZpZGVyLCBBcHBTaGVsbCwgSGVhZGVyLCBNZWRpYVF1ZXJ5LCBCdXJnZXIsIHVzZU1hbnRpbmVUaGVtZSwgVGV4dCwgQnV0dG9uLCBHcm91cCwgQW5jaG9yLCBOYXZiYXIgfSBmcm9tICdAbWFudGluZS9jb3JlJztcclxuaW1wb3J0IHsgdXNlU3RhdGUgfSBmcm9tICdyZWFjdCc7XHJcblxyXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBBcHAocHJvcHM6IEFwcFByb3BzKSB7XHJcbiAgY29uc3QgeyBDb21wb25lbnQsIHBhZ2VQcm9wcyB9ID0gcHJvcHM7XHJcbiAgY29uc3QgdGhlbWUgPSB1c2VNYW50aW5lVGhlbWUoKTtcclxuICBjb25zdCBbb3BlbmVkLCBzZXRPcGVuZWRdID0gdXNlU3RhdGUoZmFsc2UpO1xyXG5cclxuICByZXR1cm4gKFxyXG5cclxuICAgIFxyXG4gICAgPD5cclxuICAgICAgPEhlYWQ+XHJcbiAgICAgICAgPHRpdGxlPkNsaW1iaW5nIEFwcDwvdGl0bGU+XHJcbiAgICAgICAgPG1ldGEgbmFtZT1cInZpZXdwb3J0XCIgY29udGVudD1cIm1pbmltdW0tc2NhbGU9MSwgaW5pdGlhbC1zY2FsZT0xLCB3aWR0aD1kZXZpY2Utd2lkdGhcIiAvPlxyXG4gICAgICA8L0hlYWQ+XHJcbiAgICAgIDxBcHBTaGVsbFxyXG4gICAgICAgIHBhZGRpbmc9XCJtZFwiXHJcbiAgICAgICAgaGVhZGVyPXs8SGVhZGVyIGhlaWdodD17NzB9IHA9XCJtZFwiPlxyXG4gICAgICAgICAgICA8ZGl2IHN0eWxlPXt7IGRpc3BsYXk6ICdmbGV4JywgYWxpZ25JdGVtczogJ2NlbnRlcicsIGhlaWdodDogJzEwMCUnIH19PlxyXG4gICAgICAgICAgICAgIDxNZWRpYVF1ZXJ5IGxhcmdlclRoYW49XCJzbVwiIHN0eWxlcz17eyBkaXNwbGF5OiAnbm9uZScgfX0+XHJcbiAgICAgICAgICAgICAgICA8QnVyZ2VyXHJcbiAgICAgICAgICAgICAgICAgIG9wZW5lZD17b3BlbmVkfVxyXG4gICAgICAgICAgICAgICAgICBvbkNsaWNrPXsoKSA9PiBzZXRPcGVuZWQoKG8pID0+ICFvKX1cclxuICAgICAgICAgICAgICAgICAgc2l6ZT1cInNtXCJcclxuICAgICAgICAgICAgICAgICAgY29sb3I9e3RoZW1lLmNvbG9ycy5ncmF5WzZdfVxyXG4gICAgICAgICAgICAgICAgICBtcj1cInhsXCJcclxuICAgICAgICAgICAgICAgIC8+XHJcbiAgICAgICAgICAgICAgPC9NZWRpYVF1ZXJ5PlxyXG4gICAgICAgICAgICAgIDxHcm91cCBwb3NpdGlvbj0nYXBhcnQnIHN4PXt7IGhlaWdodDogJzEwMCUnIH19IHB4PXsyMH0+XHJcbiAgICAgICAgICAgICAgICA8VGV4dCB0cmFuc2Zvcm09J2NhcGl0YWxpemUnPlxyXG4gICAgICAgICAgICAgICAgICBXZWxjb21lIHRvIHRoZSBjbGltYmluZyBhcHAhXHJcbiAgICAgICAgICAgICAgICA8L1RleHQ+XHJcbiAgICAgICAgICAgICAgICA8QnV0dG9uIGNvbXBvbmVudD0nYScgaHJlZj0nLyc+SG9tZTwvQnV0dG9uPlxyXG4gICAgICAgICAgICAgIDwvR3JvdXA+XHJcbiAgICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgICAgPC9IZWFkZXI+fVxyXG4gICAgICAgIHN0eWxlcz17KHRoZW1lKSA9PiAoe1xyXG4gICAgICAgICAgbWFpbjogeyBiYWNrZ3JvdW5kQ29sb3I6IHRoZW1lLmNvbG9yU2NoZW1lID09PSAnZGFyaycgPyB0aGVtZS5jb2xvcnMuZGFya1s4XSA6IHRoZW1lLmNvbG9ycy5ncmF5WzBdIH0sXHJcbiAgICAgICAgfSl9XHJcbiAgICAgID5cclxuICAgICAgPE1hbnRpbmVQcm92aWRlclxyXG4gICAgICAgIHdpdGhHbG9iYWxTdHlsZXNcclxuICAgICAgICB3aXRoTm9ybWFsaXplQ1NTXHJcbiAgICAgICAgdGhlbWU9e3tcclxuICAgICAgICAgIC8qKiBQdXQgeW91ciBtYW50aW5lIHRoZW1lIG92ZXJyaWRlIGhlcmUgKi9cclxuICAgICAgICAgIGNvbG9yU2NoZW1lOiAnbGlnaHQnLFxyXG4gICAgICAgIH19XHJcbiAgICAgID5cclxuICAgICAgICA8Q29tcG9uZW50IHsuLi5wYWdlUHJvcHN9IC8+XHJcbiAgICAgIDwvTWFudGluZVByb3ZpZGVyPlxyXG4gICAgICA8L0FwcFNoZWxsPlxyXG4gICAgPC8+XHJcbiAgKTtcclxufSJdLCJuYW1lcyI6WyJIZWFkIiwiTWFudGluZVByb3ZpZGVyIiwiQXBwU2hlbGwiLCJIZWFkZXIiLCJNZWRpYVF1ZXJ5IiwiQnVyZ2VyIiwidXNlTWFudGluZVRoZW1lIiwiVGV4dCIsIkJ1dHRvbiIsIkdyb3VwIiwidXNlU3RhdGUiLCJBcHAiLCJwcm9wcyIsIkNvbXBvbmVudCIsInBhZ2VQcm9wcyIsInRoZW1lIiwib3BlbmVkIiwic2V0T3BlbmVkIiwidGl0bGUiLCJtZXRhIiwibmFtZSIsImNvbnRlbnQiLCJwYWRkaW5nIiwiaGVhZGVyIiwiaGVpZ2h0IiwicCIsImRpdiIsInN0eWxlIiwiZGlzcGxheSIsImFsaWduSXRlbXMiLCJsYXJnZXJUaGFuIiwic3R5bGVzIiwib25DbGljayIsIm8iLCJzaXplIiwiY29sb3IiLCJjb2xvcnMiLCJncmF5IiwibXIiLCJwb3NpdGlvbiIsInN4IiwicHgiLCJ0cmFuc2Zvcm0iLCJjb21wb25lbnQiLCJocmVmIiwibWFpbiIsImJhY2tncm91bmRDb2xvciIsImNvbG9yU2NoZW1lIiwiZGFyayIsIndpdGhHbG9iYWxTdHlsZXMiLCJ3aXRoTm9ybWFsaXplQ1NTIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./pages/_app.tsx\n");
 
 /***/ }),
 
-/***/ 247:
+/***/ "@mantine/core":
+/*!********************************!*\
+  !*** external "@mantine/core" ***!
+  \********************************/
 /***/ ((module) => {
 
 module.exports = require("@mantine/core");
 
 /***/ }),
 
-/***/ 689:
+/***/ "next/head":
+/*!****************************!*\
+  !*** external "next/head" ***!
+  \****************************/
+/***/ ((module) => {
+
+module.exports = require("next/head");
+
+/***/ }),
+
+/***/ "react":
+/*!************************!*\
+  !*** external "react" ***!
+  \************************/
 /***/ ((module) => {
 
 module.exports = require("react");
 
 /***/ }),
 
-/***/ 997:
+/***/ "react/jsx-dev-runtime":
+/*!****************************************!*\
+  !*** external "react/jsx-dev-runtime" ***!
+  \****************************************/
 /***/ ((module) => {
 
-module.exports = require("react/jsx-runtime");
+module.exports = require("react/jsx-dev-runtime");
 
 /***/ })
 
@@ -147,7 +70,7 @@ module.exports = require("react/jsx-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = (__webpack_exec__(14));
+var __webpack_exports__ = (__webpack_exec__("./pages/_app.tsx"));
 module.exports = __webpack_exports__;
 
 })();

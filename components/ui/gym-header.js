@@ -7,9 +7,9 @@ export default function GymHeader(props) {
       <Stack align="center">
         <Image
           alt={id}
-          width={500}
-          height={200}
+          height={400}
           fit="contain"
+          radius="md"
           // withPlaceholder
           // placeholder={
           //   <Text>This is where I would put my image... if I had one!</Text>

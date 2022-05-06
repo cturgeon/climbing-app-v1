@@ -2,8 +2,6 @@ import { getAllGyms, getGymById } from "../../../helpers/api-util";
 import ClimbList from "../../../components/climb-list";
 import { Title } from "@mantine/core";
 
-// we don't care to pre-render these walls, the data is not that important
-// so lets use SWR instead.
 export default function SpecificWall(props) {
   const { wall } = props;
 
@@ -18,10 +16,13 @@ export default function SpecificWall(props) {
     );
   }
 
-  return <div>wall not found</div>;
+  return <div>This wall doesn't exist please try another</div>;
 }
 
+// we don't care to pre-render these walls, the data is not that important
+// however this data never really changes. Would be nice to pre-render to feel a bit snappier
 export async function getServerSideProps(context) {
+  // this isn't quite optimized should look into changing in the future TODO
   const gym = await getGymById(context.params.gymId);
   const wallsData = gym.walls;
   const walls = [];
