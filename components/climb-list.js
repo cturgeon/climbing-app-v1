@@ -17,7 +17,7 @@ export default function ClimbList(props) {
   }
 
   return (
-    <ul>
+    <ul style={{ padding: 0 }}>
       <Grid justify="center" spacing="md">
         {climbs.map((route) => (
           <ClimbItem

@@ -39,7 +39,7 @@ export default function ClimbCard(props) {
           fullWidth
           style={{ marginTop: 14 }}
         >
-          Click me
+          Log Climb
         </Button>
       </Card>
     </div>

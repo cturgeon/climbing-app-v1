@@ -1,4 +1,3 @@
-import { Fragment } from "react";
 import GymItem from "./gym-item";
 
 export default function GymList(props) {

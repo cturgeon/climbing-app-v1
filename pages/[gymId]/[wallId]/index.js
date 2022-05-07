@@ -7,7 +7,7 @@ export default function SpecificWall(props) {
 
   if (wall) {
     return (
-      <div>
+      <div style={{ padding: 0 }}>
         <Title order={1} align="center">
           {wall.name}
         </Title>

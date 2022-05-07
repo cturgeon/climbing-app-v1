@@ -5,6 +5,8 @@ import { getAllGyms, getGymById } from "../../helpers/api-util";
 import GymHeader from "../../components/ui/gym-header";
 import WallList from "../../components/wall-list";
 
+import { Group } from "@mantine/core";
+
 export default function SpecificGym(props) {
   const gym = props.gym;
   if (!gym) {
@@ -12,7 +14,7 @@ export default function SpecificGym(props) {
   }
 
   return (
-    <div>
+    <Group direction="column" position="center">
       <Fragment>
         <GymHeader
           key={gym.id}
@@ -24,7 +26,7 @@ export default function SpecificGym(props) {
         />
         <WallList items={gym.walls} />
       </Fragment>
-    </div>
+    </Group>
   );
 }
 

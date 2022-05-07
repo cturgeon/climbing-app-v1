@@ -6,7 +6,6 @@ import {
   Group,
   useMantineTheme,
 } from "@mantine/core";
-import { Link } from "next/link";
 
 export default function GymCard(props) {
   const { id, name, image, description } = props;
@@ -19,7 +18,7 @@ export default function GymCard(props) {
     <div>
       <Card shadow="sm" p="lg">
         <Card.Section>
-          <Image src={image} height={160} alt={id} />
+          <Image src={image} height={200} alt={id} />
         </Card.Section>
 
         <Group
