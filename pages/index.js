@@ -1,4 +1,5 @@
-import { Text } from "@mantine/core";
+import { Text, Group } from "@mantine/core";
+import { Fragment } from "react";
 
 import { getAllGyms } from "../helpers/api-util";
 
@@ -7,12 +8,14 @@ import GymList from "../components/gym-list";
 export default function Home(props) {
   const { gymData } = props;
   return (
-    <div>
-      <Text size="md" align="center" transform="capitalize">
-        You can begin by selecting a gym below
-      </Text>
-      <GymList items={gymData} />
-    </div>
+    <Group direction="column" position="center">
+      <Fragment>
+        <Text size="md" transform="capitalize">
+          You can begin by selecting a gym below
+        </Text>
+        <GymList items={gymData} />
+      </Fragment>
+    </Group>
   );
 }
 

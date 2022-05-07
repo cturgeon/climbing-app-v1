@@ -16,7 +16,7 @@ export default function SpecificWall(props) {
     );
   }
 
-  return <div>This wall doesn't exist please try another</div>;
+  return <div>This wall does not exist please try another</div>;
 }
 
 // we don't care to pre-render these walls, the data is not that important

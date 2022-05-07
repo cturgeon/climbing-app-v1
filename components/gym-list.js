@@ -9,18 +9,16 @@ export default function GymList(props) {
   }
 
   return (
-    <ul>
+    <ul style={{ padding: 0 }}>
       {items.map((gym) => (
-        // !TODO should the key be in the fragment?
-        <Fragment key={gym.id}>
-          <GymItem
-            id={gym.id}
-            name={gym.name}
-            description={gym.description}
-            image={gym.image}
-            address={gym.address}
-          />
-        </Fragment>
+        <GymItem
+          key={gym.id}
+          id={gym.id}
+          name={gym.name}
+          description={gym.description}
+          image={gym.image}
+          address={gym.address}
+        />
       ))}
     </ul>
   );

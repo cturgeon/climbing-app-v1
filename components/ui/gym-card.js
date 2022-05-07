@@ -16,7 +16,7 @@ export default function GymCard(props) {
     theme.colorScheme === "dark" ? theme.colors.dark[1] : theme.colors.gray[7];
 
   return (
-    <div style={{ width: 340, margin: "auto" }}>
+    <div>
       <Card shadow="sm" p="lg">
         <Card.Section>
           <Image src={image} height={160} alt={id} />
@@ -41,7 +41,7 @@ export default function GymCard(props) {
           component="a"
           href={`/${id}`}
         >
-          Click me
+          View Gym
         </Button>
       </Card>
     </div>
