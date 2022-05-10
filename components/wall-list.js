@@ -1,5 +1,4 @@
 import WallItem from "./wall-item";
-import { Grid, Space } from "@mantine/core";
 
 export default function WallList(props) {
   const wallsData = props.items;
